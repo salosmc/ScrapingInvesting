@@ -1,108 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-
-/*ALGUNAS FUNCIONES UTILES*/
-
-async function buscarEmpresas(page){
-    let empresas = await page.evaluate(()=>{
-        let array = [];
-        let elements = document.querySelectorAll('td.symbol.left.bold.elp a');
-        let simbolos = document.querySelectorAll('tr td[class="left"]');
-
-        for(let i = 0; i<elements.length;i++){
-            /*
-            Aca me gustaria acceder a la empresa y sacar la informacion que me interesa.
-            Pero por no me esta dejando trabajar con iwait dentro de page.evaluate()
-            */
-            array.push({name:elements[i].title, src:elements[i].href, ref: simbolos[i].innerText });
-        }
-        return array;
-    });
-    return empresas;
-}
-
-async function buscarPagUtiles(page){
-    let pagUtiles = await page.evaluate(()=>{
-        //buscamos la pagina de Cuenta de resultados.
-        let cuentaResultados = document.querySelector('a[data-test="Cuenta-de-resultados"]');
-        let ratios = document.querySelector('a[data-test="Ratios"]');
-        return {cuentaResultados: cuentaResultados.href, ratios: ratios.href};
-    });
-    return pagUtiles;
-}
-
-async function buscarIngresos(page){
-
-    let ingresos = await page.evaluate(()=>{
-
-        let elements = document.querySelectorAll('tr#parentTr.openTr.pointer td');
-        let dates = document.querySelectorAll('#header_row.alignBottom th');
-        let array = [];
-        let flag = false;
-        //ya esta funcionando, solo le indico el primer elemento.
-        for(let i=0; i<elements.length;i++){
-            if(elements[i].innerText == 'Ingresos totales'){
-                flag = true;
-            }
-            if(isNaN(parseFloat(elements[i].innerText)) && array.length!=0){
-                flag = false;
-            }
-            if(!isNaN(parseFloat(elements[i].innerText)) && flag){
-                array.push({date: dates[i].innerText.replace(/[\n \/]/,'- '),
-                            value:parseFloat(elements[i].innerText.replace(',','.'))});
-            }
-        }
-        return array;
-    });
-
-    return ingresos;
-}
-
-async function buscarRentabilidad(page){
-    let rentabilidad = await page.evaluate(()=>{
-        let elements = document.querySelectorAll('tr.child td');
-        let array = [];
-        let flag = false;
-        for (let e of elements){
-            if(e.innerText == 'Rentabilidad sobre fondos propios TTM'){
-                flag = true;
-            }
-            if(isNaN(parseFloat(e.innerText)) && array.length!=0){
-                flag = false;
-            }
-            if(!isNaN(parseFloat(e.innerText)) && flag){
-                array.push(parseFloat(e.innerText.replace(',','.')));
-            }
-        }
-        return array;
-        //return selectData(elements,'Rentabilidad sobre fondos propios TTM','Rentabilidad sobre fondos propios 5YA');
-    });
-    return rentabilidad;
-}
-
-async function buscarPrecioVenta(page){
-    let precioVenta = await page.evaluate(()=>{
-        let elements = document.querySelectorAll('tr.child td');
-        let array = [];
-        let flag = false;
-        //ya esta funcionando, solo le indico el primer elemento.
-        for (let e of elements){
-            if(e.innerText == 'Precio/Ventas TTM'){
-                flag = true;
-            }
-            if(isNaN(parseFloat(e.innerText)) && array.length!=0){
-                flag = false;
-            }
-            if(!isNaN(parseFloat(e.innerText)) && flag){
-                array.push(parseFloat(e.innerText.replace(',','.')));
-            }
-        }
-        return array;
-    });
-
-    return precioVenta;
-}
+const buscar = require('./module_utiles/funciones')
 
 
 
@@ -149,7 +48,7 @@ fs.writeFileSync(informeErrores,encabezadoInfErrores);
     for (let nPag=1; nPag< 2; nPag++){
 
         //aca buscamos las empresas en la pagina actual.
-        let empresas = await buscarEmpresas(page);
+        let empresas = await buscar.empresas(page);
 
         /*Asi que voy a trabajar con bloques de a 50 empresas*/
 
@@ -176,14 +75,14 @@ fs.writeFileSync(informeErrores,encabezadoInfErrores);
                 await page2.waitForSelector('nav.navbar_navbar__2yeca',{timeout:5000});
 
                 //Aca buscamos las paginas con las que vamos a trabajar Cuenta resultados y Ratios
-                let pagEmpresa = await buscarPagUtiles(page2);
+                let pagEmpresa = await buscar.pagUtiles(page2);
 
                 //Abrimos la pagina CuentaResultados de la empresa.
                 await page2.goto(pagEmpresa.cuentaResultados);
                 await page2.waitForSelector('tr#parentTr.openTr.pointer',{timeout:5000});
 
                 //Aca buscamos los ingresos totales de la empresa.
-                resEmpresa.ingresosTotales = await buscarIngresos(page2);
+                resEmpresa.ingresosTotales = await buscar.ingresos(page2);
 
                 /*-----------Aca trabajamos empezamos con los ratios ---------- */
         
@@ -192,10 +91,10 @@ fs.writeFileSync(informeErrores,encabezadoInfErrores);
                 await page2.waitForSelector('tr.child td',{timeout:5000});
 
                 //Aca buscamos la rentabilidad en la pagina de la empresa.
-                resEmpresa.rentabilidad = await buscarRentabilidad(page2);
+                resEmpresa.rentabilidad = await buscar.rentabilidad(page2);
 
                 //Aca buscamos precio/venta en la pagina de la empresa
-                resEmpresa.precioVenta = await buscarPrecioVenta(page2);
+                resEmpresa.precioVenta = await buscar.precioVenta(page2);
 
                 /*EMPIEZO A ANALIZAR LOS RESUTLADOS */
                 /* Primero. Es recomedable comprar??? */

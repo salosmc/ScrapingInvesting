@@ -1,0 +1,126 @@
+Informe Completo;;;;;;;;;;;;;;;
+Tipo : Acciones;;;;;;;;;;;;;;;
+Pais: EEUU;;;;;;;;;;;;;;;
+Fecha de creación : 28/12/2021;;;;;;;;;;;;;;;
+Nombre;Ref.;Ingresos Totales;;;;;;;;Rentabilidad sobre fondos propios TTM;;Precio/Venta TTM;;Recomendación;URL
+;;fecha;monto;fecha;monto;fecha;monto;fecha;monto;Empresa;Industria;Empresa;Industria;;
+Apple Inc;AAPL;2021- 25/09;83360;2021- 26/06;81434;2021- 27/03;89584;2020- 26/12;111439;42.65;40.45;8.09;22.39;-;https://es.investing.com/equities/apple-computer-inc
+Microsoft Corporation;MSFT;2021- 30/09;45317;2021- 30/06;46152;2021- 31/03;41706;2020- 31/12;43076;27.94;13.95;14.59;29.76;-;https://es.investing.com/equities/microsoft-corp
+Alphabet Inc Class C;GOOG;2021- 30/09;65118;2021- 30/06;61880;2021- 31/03;55314;2020- 31/12;56898;26.32;24.77;8.21;8.4;-;https://es.investing.com/equities/google-inc-c
+Alphabet Inc Class A;GOOGL;2021- 30/09;65118;2021- 30/06;61880;2021- 31/03;55314;2020- 31/12;56898;26.32;24.8;8.21;8.61;-;https://es.investing.com/equities/google-inc
+Amazon.com Inc;AMZN;2021- 30/09;110812;2021- 30/06;113080;2021- 31/03;108518;2020- 31/12;125555;11.96;10.77;3.76;6.11;-;https://es.investing.com/equities/amazon-com-inc
+Tesla Inc;TSLA;2021- 30/09;13757;2021- 30/06;11958;2021- 31/03;10389;2020- 31/12;10744;10.39;5.71;23.45;3.111;Vender;https://es.investing.com/equities/tesla-motors
+Meta Platforms Inc;FB;2021- 30/09;29010;2021- 30/06;29077;2021- 31/03;26171;2020- 31/12;28072;28.16;24.8;8.57;8.61;-;https://es.investing.com/equities/facebook-inc
+Broadcom Mandatory Conv Pref;AVGOP;2021- 31/10;7407;8/1/2021;6778;5/2/2021;6610;2021- 31/01;6655;9.7;23.26;10.14;14.6;-;https://es.investing.com/equities/broadcom-mandatory-conv-pref
+NVIDIA Corporation;NVDA;2021- 31/10;7103;8/1/2021;6507;5/2/2021;5661;2021- 31/01;5003;27.25;23.26;31.87;14.6;Vender;https://es.investing.com/equities/nvidia-corp
+Berkshire Hathaway Inc Class A;BRKa;2021- 30/09;70583;2021- 30/06;69114;2021- 31/03;64599;2020- 31/12;64381;10.97;10.64;2.47;20.97;Comprar;https://es.investing.com/equities/berkshire-hathaway-inc
+Taiwan Semiconductor Manufacturing;TSM;2021- 30/09;414670.38;2021- 30/06;372145.12;2021- 31/03;362410.23;2020- 31/12;361533.06;24.3;22.85;10.4;13.67;-;https://es.investing.com/equities/taiwan-semicond.manufacturing-co
+Tencent Holdings Ltd ADR;TCEHY;2021- 30/09;142368;2021- 30/06;138259;2021- 31/03;135303;2020- 31/12;133669;18.6;17.47;6.56;6.06;-;https://es.investing.com/equities/tencent-holdings-pk
+UnitedHealth Group Incorporated;UNH;2021- 30/09;72337;2021- 30/06;71321;2021- 31/03;70196;2020- 31/12;65467;4.07;undefined;1.68;1.67;-;https://es.investing.com/equities/united-health-group
+Johnson & Johnson;JNJ;10/3/2021;23338;7/4/2021;23312;4/4/2021;22321;1/3/2021;22475;14.81;undefined;4.69;7.06;-;https://es.investing.com/equities/johnson-johnson
+Visa Inc Class A;V;2021- 30/09;6559;2021- 30/06;6130;2021- 31/03;5729;2020- 31/12;5687;18.43;16.17;19.02;24.25;-;https://es.investing.com/equities/visa-inc
+GMK Norilskiy Nikel PAO ADR;NILSY;2021- 30/06;665182;2020- 31/12;655006;2020- 30/06;461963;2019- 31/12;466591;57.72;22.37;2.61;1.91;-;https://es.investing.com/equities/jsc-mmc-norilsk-nickel
+Home Depot Inc;HD;2021- 31/10;36820;8/1/2021;41118;5/2/2021;37500;2021- 31/01;32261;36.37;24.74;2.86;3.74;-;https://es.investing.com/equities/home-depot
+LVMH Moet Hennessy Louis Vuitton SA ADR;LVMUY;2021- 30/06;28665;2020- 31/12;26258;2020- 30/06;18393;2019- 31/12;28588;12.04;16.53;6.59;5.64;-;https://es.investing.com/equities/lvmh-moet-henn-l-vut
+Walmart Inc;WMT;2021- 31/10;140525;2021- 31/07;141048;2021- 30/04;138310;2021- 31/01;152079;5.43;9.18;0.68;0.82;-;https://es.investing.com/equities/wal-mart-stores
+Procter & Gamble Company;PG;2021- 30/09;20338;2021- 30/06;18946;2021- 31/03;18109;2020- 31/12;19745;16.45;16.93;5.08;4.31;-;https://es.investing.com/equities/procter-gamble
+Nestle SA ADR;NSRGY;2021- 30/06;41755;2020- 31/12;43191;2020- 30/06;41152;2019- 31/12;47112;12.48;11.46;4.22;4.34;-;https://es.investing.com/equities/nestle-sa-pk
+Roche Holding Ltd ADR;RHHBY;2021- 30/06;30713;2020- 31/12;29042;2020- 30/06;29281;2019- 31/12;30997;26.07;14.81;5.5;7.06;-;https://es.investing.com/equities/roche-holding-ltd
+Mastercard Inc;MA;2021- 30/09;4985;2021- 30/06;4528;2021- 31/03;4155;2020- 31/12;4120;35.73;16.17;19.9;24.25;-;https://es.investing.com/equities/mastercard-cl-a
+Pfizer Inc;PFE;10/3/2021;24094;7/4/2021;18977;4/4/2021;14582;2020- 31/12;11684;13.46;14.81;4.79;7.06;-;https://es.investing.com/equities/pfizer
+Alibaba Group Holdings Ltd ADR;BABA;2021- 30/09;200690;2021- 30/06;205740;2021- 31/03;187395;2020- 31/12;221084;9.08;10.7;2.48;5.99;-;https://es.investing.com/equities/alibaba
+ASML Holding NV ADR;ASML;10/3/2021;5241.3;7/4/2021;4020.2;4/4/2021;4363.9;2020- 31/12;4254.2;27.49;22.85;16.47;13.67;-;https://es.investing.com/equities/asml-holdings
+Oracle Corporation;ORCL;2021- 30/11;10360;2021- 31/08;9728;2021- 31/05;11227;2021- 28/02;10085;11.69;13.95;5.91;29.76;-;https://es.investing.com/equities/oracle-corp
+Walt Disney Company;DIS;10/2/2021;18534;7/3/2021;17022;4/3/2021;15613;1/2/2021;16249;1.59;-1.31;4.12;19.32;-;https://es.investing.com/equities/disney
+Adobe Systems Incorporated;ADBE;12/3/2021;4110;9/3/2021;3935;6/4/2021;3835;3/5/2021;3905;24.68;13.48;17.41;30.35;-;https://es.investing.com/equities/adobe-sys-inc
+Novo Nordisk A/S;NVO;2021- 30/09;35622;2021- 30/06;33041;2021- 31/03;33804;2020- 31/12;32138;59.69;12.42;9.58;7.9;-;https://es.investing.com/equities/novo-nordis
+L’Oreal Co ADR;LRLCY;2021- 30/06;15196.6;2020- 31/12;14915.6;2020- 30/06;13076.5;2019- 31/12;15062.1;12.65;12.64;7.74;7.8;-;https://es.investing.com/equities/l-oreal-co
+Netflix Inc;NFLX;2021- 30/09;7483.47;2021- 30/06;7341.78;2021- 31/03;7163.28;2020- 31/12;6644.44;15.19;-0.63;9.48;18.4;-;https://es.investing.com/equities/netflix,-inc.
+Thermo Fisher Scientific Inc;TMO;10/2/2021;9330;7/3/2021;9273;4/3/2021;9906;2020- 31/12;10550;13.85;11.2;6.68;9.33;-;https://es.investing.com/equities/thermo-fisher-sc
+Exxon Mobil Corp;XOM;2021- 30/09;71892;2021- 30/06;65943;2021- 31/03;57552;2020- 31/12;45738;-2.17;5.2;1.09;10.12;-;https://es.investing.com/equities/exxon-mobil
+Nike Inc;NKE;2021- 30/11;11357;2021- 31/08;12248;2021- 31/05;12344;2021- 28/02;10357;22.02;16.53;5.73;5.64;-;https://es.investing.com/equities/nike
+Toyota Motor Corporation ADR;TM;2021- 30/09;7545741;2021- 30/06;7935558;2021- 31/03;7689339;2020- 31/12;8150032;8.29;5.71;1.1;3.111;-;https://es.investing.com/equities/toyota
+Broadcom Inc;AVGO;2021- 31/10;7407;8/1/2021;6778;5/2/2021;6610;2021- 31/01;6655;9.7;23.26;10.14;14.6;-;https://es.investing.com/equities/avago-technologies
+Cisco Systems Inc;CSCO;2021- 30/10;12900;2021- 31/07;13126;5/1/2021;12803;2021- 23/01;11960;16.19;16.57;5.27;5.32;-;https://es.investing.com/equities/cisco-sys-inc
+Coca-Cola Co;KO;10/1/2021;10042;7/2/2021;10129;4/2/2021;9020;2020- 31/12;8611;12.5;10.52;6.7;4.76;-;https://es.investing.com/equities/coca-cola-co
+Accenture plc;ACN;2021- 30/11;14965.15;2021- 31/08;13419.28;2021- 31/05;13263.8;2021- 28/02;12088.12;23.82;15.48;5.09;24.64;Comprar;https://es.investing.com/equities/accenture-ltd
+Eli Lilly and Company;LLY;2021- 30/09;6772.8;2021- 30/06;6740.1;2021- 31/03;6805.6;2020- 31/12;7440;18.07;14.81;9.59;7.06;-;https://es.investing.com/equities/eli-lilly-and-co
+Salesforce.com Inc;CRM;2021- 31/10;6863;2021- 31/07;6340;2021- 30/04;5963;2021- 31/01;5817;2.95;13.95;10.12;29.76;-;https://es.investing.com/equities/salesforce-com
+Prosus NV ADR;PROSY;2021- 30/09;3065;2021- 31/03;2943;2020- 30/09;2173;2020- 31/03;3330;37.29;34.56;28.73;26.55;-;https://es.investing.com/equities/prosus-nv-adr
+Costco Wholesale Corp;COST;2021- 21/11;50363;2021- 29/08;62675;5/9/2021;45277;2021- 14/02;44769;18.28;8.88;1.23;0.79;Vender;https://es.investing.com/equities/costco-whsl-corp-new
+Abbott Laboratories;ABT;2021- 30/09;10928;2021- 30/06;10223;2021- 31/03;10456;2020- 31/12;10701;12.18;10.18;5.91;124.85;-;https://es.investing.com/equities/abbott-laboratories
+AbbVie Inc;ABBV;2021- 30/09;14342;2021- 30/06;13959;2021- 31/03;13010;2020- 31/12;13858;6.14;11.19;4.31;406.43;-;https://es.investing.com/equities/abbvie-inc
+Danaher Corp Pref Series B;DHR_pb;10/1/2021;7229;7/2/2021;7218;4/2/2021;6858;2020- 31/12;6760.3;8.16;11.2;8.34;9.33;-;https://es.investing.com/equities/danaher-corp-pr-b
+Chevron Corp;CVX;2021- 30/09;42552;2021- 30/06;36117;2021- 31/03;31350;2020- 31/12;24843;4.77;4.92;1.7;9.18;-;https://es.investing.com/equities/chevron
+Comcast Corp;CMCSA;2021- 30/09;30298;2021- 30/06;28546;2021- 31/03;27205;2020- 31/12;27708;5.89;5.19;2.03;4.24;-;https://es.investing.com/equities/comcast-corp-new
+PayPal Holdings Inc;PYPL;2021- 30/09;6182;2021- 30/06;6238;2021- 31/03;6033;2020- 31/12;6116;15.63;16.17;9.18;24.25;-;https://es.investing.com/equities/paypal-holdings-inc
+Verizon Communications Inc;VZ;2021- 30/09;32915;2021- 30/06;33764;2021- 31/03;32867;2020- 31/12;34692;7.93;6.54;1.62;3.78;-;https://es.investing.com/equities/verizon-communications
+Intel Corporation;INTC;2021- 25/09;19192;2021- 26/06;19631;2021- 27/03;19673;2020- 26/12;19978;16.14;22.85;2.69;13.67;-;https://es.investing.com/equities/intel-corp
+Qualcomm Incorporated;QCOM;2021- 26/09;9336;2021- 27/06;8060;2021- 28/03;7935;2020- 27/12;8235;32.17;22.85;6.22;13.67;-;https://es.investing.com/equities/qualcomm-inc
+McDonald’s Corporation;MCD;2021- 30/09;6201.3;2021- 30/06;5887.9;2021- 31/03;5124.6;2020- 31/12;5313.8;15.83;-4.34;8.9;9.8;-;https://es.investing.com/equities/mcdonalds
+Novartis AG ADR;NVS;2021- 30/09;13367;2021- 30/06;13294;2021- 31/03;12694;2020- 31/12;13030;10.39;14.81;4.05;7.06;-;https://es.investing.com/equities/novartis-ag
+Merck & Company Inc;MRK;2021- 30/09;13154;2021- 30/06;11402;2021- 31/03;10627;2020- 31/12;12515;9.27;12.42;4.05;7.9;-;https://es.investing.com/equities/merck---co
+Nextera Energy Inc;NEE;2021- 30/09;4370;2021- 30/06;3927;2021- 31/03;3726;2020- 31/12;4395;1.64;2.64;10.91;4.17;Vender;https://es.investing.com/equities/nextera-energy-inc
+Morgan Stanley;MS;2021- 30/09;15041;2021- 30/06;15106;2021- 31/03;16128;2020- 31/12;14014;2.94;21.42;2.99;9.26;-;https://es.investing.com/equities/morgan-stanley
+Texas Instruments Incorporated;TXN;2021- 30/09;4643;2021- 30/06;4580;2021- 31/03;4289;2020- 31/12;4076;39.69;22.85;10.07;13.67;-;https://es.investing.com/equities/texas-instru
+Lowe’s Companies Inc;LOW;2021- 29/10;22918;2021- 30/07;27570;2021- 30/04;24422;2021- 29/01;20311;27.43;24.74;1.8;3.74;-;https://es.investing.com/equities/lowes-companies
+AT&T Inc;T;2021- 30/09;39922;2021- 30/06;44045;2021- 31/03;43939;2020- 31/12;45691;0.57;6.56;1.02;3.51;-;https://es.investing.com/equities/at-t
+Shopify Inc;SHOP;2021- 30/09;1123.74;2021- 30/06;1119.44;2021- 31/03;988.65;2020- 31/12;977.74;34.04;16.17;41.78;24.25;Vender;https://es.investing.com/equities/shopify-inc
+Royal Dutch Shell PLC ADR;RDSa;2021- 30/09;60044;2021- 30/06;60515;2021- 31/03;55665;2020- 31/12;43989;1.67;5.2;0.77;10.12;-;https://es.investing.com/equities/royal-dutch-shell-a-plc
+SAP SE ADR;SAP;2021- 30/09;6845;2021- 30/06;6669;2021- 31/03;6348;2020- 31/12;7538;12.47;13.95;5.56;29.76;-;https://es.investing.com/equities/sap-ag-ads-exch
+Union Pacific Corporation;UNP;2021- 30/09;5566;2021- 30/06;5504;2021- 31/03;5001;2020- 31/12;5141;10.66;6.1;7.51;6.33;-;https://es.investing.com/equities/union-pacific
+Sony Group Corp;SONY;2021- 30/09;2369365;2021- 30/06;2256843;2021- 31/03;2220419;2020- 31/12;2696536;4.74;13.13;1.91;1.77;-;https://es.investing.com/equities/sony
+T-Mobile US Inc;TMUS;2021- 30/09;19624;2021- 30/06;19950;2021- 31/03;19759;2020- 31/12;20341;1.89;6.3;1.86;1.65;-;https://es.investing.com/equities/metropcs-communications
+Philip Morris International Inc;PM;2021- 30/09;8122;2021- 30/06;7594;2021- 31/03;7585;2020- 31/12;7444;43.56;22.67;4.74;3.42;-;https://es.investing.com/equities/philip-morris-intl
+CVS Health Corp;CVS;2021- 30/09;73794;2021- 30/06;72616;2021- 31/03;69097;2020- 31/12;69554;4.46;4.07;0.47;1.67;-;https://es.investing.com/equities/cvs-corp
+Starbucks Corporation;SBUX;10/3/2021;8146.7;2021- 27/06;7496.5;2021- 28/03;6668;2020- 27/12;6749.4;18.56;-4.34;4.61;9.8;-;https://es.investing.com/equities/starbucks-corp
+Applied Materials Inc;AMAT;2021- 31/10;6123;8/1/2021;6196;5/2/2021;5582;2021- 31/01;5162;31.51;22.85;6.27;13.67;-;https://es.investing.com/equities/applied-matls-inc
+Diageo PLC ADR;DEO;2021- 30/06;5859;2020- 31/12;6874;2020- 30/06;4552;2019- 31/12;7200;11.56;10.52;7.31;4.76;Vender;https://es.investing.com/equities/diageo-plc
+TotalEnergies SE ADR;TTE;2021- 30/09;49070;2021- 30/06;41633;2021- 31/03;38633;2020- 31/12;32348;5.79;5.2;0.83;10.12;Comprar;https://es.investing.com/equities/total-s.a.
+Estee Lauder Companies Inc;EL;2021- 30/09;4392;2021- 30/06;3936;2021- 31/03;3864;2020- 31/12;4853;21.36;14.48;7.8;5.93;-;https://es.investing.com/equities/estee-lauder
+Charter Communications Inc;CHTR;2021- 30/09;13146;2021- 30/06;12802;2021- 31/03;12522;2020- 31/12;12624;3.86;5.19;2.29;4.24;-;https://es.investing.com/equities/charter-communications
+American Express Company;AXP;2021- 30/09;11037;2021- 30/06;10356;2021- 31/03;9198;2020- 31/12;9506;8.65;9.17;3.26;4.12;-;https://es.investing.com/equities/american-express
+Amgen Inc;AMGN;2021- 30/09;6706;2021- 30/06;6526;2021- 31/03;5901;2020- 31/12;6634;10.7;13.92;4.92;449.93;-;https://es.investing.com/equities/amgen-inc
+Sanofi ADR;SNY;2021- 30/09;10829;2021- 30/06;17931;2021- 31/03;8886;2020- 31/12;19615;12.42;undefined;2.91;7.9;-;https://es.investing.com/equities/sanofi
+Intuitive Surgical Inc;ISRG;2021- 30/09;1403.3;2021- 30/06;1464;2021- 31/03;1292.1;2020- 31/12;1329.1;15.86;10.18;23.71;124.85;-;https://es.investing.com/equities/intuitive-surgical-inc
+Sea Ltd;SE;2021- 30/09;2688.88;2021- 30/06;2280.55;2021- 31/03;1763.64;2020- 31/12;1566.55;-25.63;-1.31;14.67;19.32;-;https://es.investing.com/equities/sea-limited
+Moderna Inc;MRNA;2021- 30/09;4969;2021- 30/06;4354;2021- 31/03;1937;2020- 31/12;570.75;99.86;11.19;8.46;406.43;Comprar;https://es.investing.com/equities/moderna
+International Business Machines;IBM;2021- 30/09;17618;2021- 30/06;18745;2021- 31/03;17730;2020- 31/12;20367;4.16;15.48;1.59;24.64;-;https://es.investing.com/equities/ibm
+JD.com Inc Adr;JD;2021- 30/09;218708.36;2021- 30/06;253800.47;2021- 31/03;203176.17;2020- 31/12;224328.15;11.9;10.77;0.74;6.11;-;https://es.investing.com/equities/jd.com-inc-adr
+Boeing Co;BA;2021- 30/09;15278;2021- 30/06;16998;2021- 31/03;15217;2020- 31/12;15802;-13.22;3.09;1.89;12.02;-;https://es.investing.com/equities/boeing-co
+Caterpillar Inc;CAT;2021- 30/09;12397;2021- 30/06;12889;2021- 31/03;11887;2020- 31/12;11235;9.43;11.37;2.31;6.39;-;https://es.investing.com/equities/caterpillar
+GlaxoSmithKline PLC ADR;GSK;2021- 30/09;9077;2021- 30/06;8092;2021- 31/03;7418;2020- 31/12;8739;9.78;12.42;2.43;7.9;-;https://es.investing.com/equities/glaxosmithklein-exch
+Rio Tinto ADR;RIO;2021- 30/06;33083;2020- 31/12;25249;2020- 30/06;19362;2019- 31/12;22443;25.52;10.15;1.85;3.84;-;https://es.investing.com/equities/rio-tinto-plc-exch
+Gazprom PAO ADR;OGZRY;2021- 30/09;2373164;2021- 30/06;2066807;2021- 31/03;2285161;2020- 31/12;2020341;9.39;7.07;0.92;2.4;-;https://es.investing.com/equities/gazprom-adr
+General Electric Company;GE;2021- 30/09;18429;2021- 30/06;18280;2021- 31/03;17119;2020- 31/12;21929;1.69;7.68;1.37;2.53;-;https://es.investing.com/equities/general-electric
+Anheuser Busch Inbev NV ADR;BUD;2021- 30/09;14274;2021- 30/06;13539;2021- 31/03;12293;2020- 31/12;12767;10.52;undefined;1.99;4.76;-;https://es.investing.com/equities/anheuser-busch-exch
+Snowflake Inc;SNOW;2021- 31/10;334.44;2021- 31/07;272.2;2021- 30/04;228.91;2021- 31/01;190.47;-14.4;15.48;103.23;24.64;Vender;https://es.investing.com/equities/snowflake-inc
+Airbnb Inc;ABNB;2021- 30/09;2237.43;2021- 30/06;1335.2;2021- 31/03;886.94;2020- 31/12;859.26;-75.56;-4.34;20.21;9.8;Vender;https://es.investing.com/equities/airbnb-inc
+Automatic Data Processing Inc;ADP;2021- 30/09;3832.3;2021- 30/06;3737;2021- 31/03;4102;2020- 31/12;3695.7;26.47;16.17;6.75;24.25;-;https://es.investing.com/equities/auto-data-process
+Lockheed Martin Corporation;LMT;2021- 26/09;16028;2021- 27/06;17029;2021- 28/03;16258;2020- 31/12;17032;16.74;3.09;1.46;12.02;-;https://es.investing.com/equities/lockheed-martin
+Stryker Corporation;SYK;2021- 30/09;4160;2021- 30/06;4294;2021- 31/03;3953;2020- 31/12;4262;6.63;10.18;6.12;124.85;-;https://es.investing.com/equities/stryker
+ConocoPhillips;COP;2021- 30/09;11326;2021- 30/06;9556;2021- 31/03;9826;2020- 31/12;5491;6.91;5.2;2.67;10.12;-;https://es.investing.com/equities/conoco-phillips
+Micron Technology Inc;MU;12/2/2021;7687;9/2/2021;8274;6/3/2021;7422;3/4/2021;6236;14.28;22.85;3.57;13.67;-;https://es.investing.com/equities/micron-tech
+Booking Holdings Inc;BKNG;2021- 30/09;4676;2021- 30/06;2160;2021- 31/03;1141;2020- 31/12;1238;2.09;-4.34;10.67;9.8;-;https://es.investing.com/equities/priceline.com-inc
+Crown Castle International Corp;CCI;2021- 30/09;1618;2021- 30/06;1583;2021- 31/03;1485;2020- 31/12;1493;3.55;3.89;14.32;13.15;-;https://es.investing.com/equities/crown-castle-int
+General Motors Company;GM;2021- 30/09;26779;2021- 30/06;34167;2021- 31/03;32474;2020- 31/12;37518;6.97;5.71;0.64;3.111;-;https://es.investing.com/equities/gen-motors
+British American Tobacco PLC ADR;BTI;2021- 30/06;12175;2020- 31/12;13505;2020- 30/06;12271;2019- 31/12;13707;4.95;22.91;2.45;3.31;-;https://es.investing.com/equities/british-american-tobacco-plc-bats
+Ford Motor Company;F;2021- 30/09;35683;2021- 30/06;26752;2021- 31/03;36228;2020- 31/12;35952;1.72;5.24;0.62;5.548;-;https://es.investing.com/equities/ford-motor-co
+Enbridge Inc;ENB;2021- 30/09;11466;2021- 30/06;10948;2021- 31/03;12187;2020- 31/12;10008;4.25;5.2;2.21;10.12;-;https://es.investing.com/equities/enbridge-inc.
+Equinix Inc;EQIX;2021- 30/09;1675.18;2021- 30/06;1657.92;2021- 31/03;1596.06;2020- 31/12;1564.12;1.76;3.89;11.58;13.15;-;https://es.investing.com/equities/equinix,-inc.
+Colgate-Palmolive Company;CL;2021- 30/09;4414;2021- 30/06;4260;2021- 31/03;4344;2020- 31/12;4324;26.16;16.93;4.08;4.31;-;https://es.investing.com/equities/colgate-palmo
+Marvell Technology Group Ltd;MRVL;2021- 30/10;1211.24;2021- 31/07;1075.88;5/1/2021;832.28;2021- 30/01;797.82;-2.7;22.85;19.09;13.67;-;https://es.investing.com/equities/marvell-technology-group-ltd
+Petroleo Brasileiro Petrobras SA ADR;PBR;2021- 30/09;121594;2021- 30/06;110710;2021- 31/03;86174;2020- 31/12;74972;16.47;4.92;0.99;9.18;Comprar;https://es.investing.com/equities/petroleo-bras
+Fiserv Inc;FISV;2021- 30/09;4163;2021- 30/06;4051;2021- 31/03;3755;2020- 31/12;3832;2.23;16.17;4.34;24.25;-;https://es.investing.com/equities/fiserv-inc
+Vale SA ADR;VALE;2021- 30/09;66260.71;2021- 30/06;87846.82;2021- 31/03;69301.18;2020- 31/12;78938.25;24.36;10.15;1.33;3.84;-;https://es.investing.com/equities/vale-s.a.--americ
+Public Storage;PSA;2021- 30/09;894.93;2021- 30/06;829.32;2021- 31/03;767.26;2020- 31/12;759.04;13.14;3.86;19.9;12.69;Vender;https://es.investing.com/equities/public-stg-mld
+Dominion Energy Inc;D;2021- 30/09;3176;2021- 30/06;3038;2021- 31/03;3870;2020- 31/12;3521;3.11;2.84;4.61;2.62;Vender;https://es.investing.com/equities/dominion-res
+Fast Retailing Co Ltd ADR;FRCOY;2021- 31/08;434910;2021- 31/05;495218;2021- 28/02;583066;2020- 30/11;619797;9.74;9.05;3.3;2.48;-;https://es.investing.com/equities/fast-retailing-co-ltd
+Coinbase Global Inc;COIN;2021- 30/09;1311.91;2021- 30/06;4029.07;2021- 31/03;1801.11;2020- 31/12;585.11;22.04;undefined;10.18;9.29;-;https://es.investing.com/equities/coinbase-global
+Exelon Corporation;EXC;2021- 30/09;8910;2021- 30/06;7915;2021- 31/03;9890;2020- 31/12;8114;1.63;2.65;1.54;4.34;-;https://es.investing.com/equities/exelon-corp
+Dollar General Corporation;DG;2021- 29/10;8517.84;2021- 30/07;8650.2;2021- 30/04;8400.96;2021- 29/01;8414.52;12.09;15.91;1.53;1.16;-;https://es.investing.com/equities/dollar-general-corp
+DexCom Inc;DXCM;2021- 30/09;650.2;2021- 30/06;595.1;2021- 31/03;505;2020- 31/12;568.9;14.37;9.96;23.82;152.92;-;https://es.investing.com/equities/dexcom
+Baidu Inc;BIDU;2021- 30/09;31921;2021- 30/06;31350;2021- 31/03;28134;2020- 31/12;30263;4.05;24.77;2.62;8.4;-;https://es.investing.com/equities/baidu.com
+Monster Beverage Corp;MNST;2021- 30/09;1410.56;2021- 30/06;1461.93;2021- 31/03;1243.82;2020- 31/12;1196.28;26.71;10.52;9.44;4.76;Vender;https://es.investing.com/equities/monster-beverage
+Activision Blizzard Inc;ATVI;2021- 30/09;2070;2021- 30/06;2296;2021- 31/03;2275;2020- 31/12;2412;12.78;-0.63;5.63;18.4;-;https://es.investing.com/equities/activision-inc
+Nu Holdings Ltd;NU;2021- 30/09;480.91;2021- 30/06;336.09;2021- 31/03;245.06;2020- 31/12;202.56;-4.95;103.37;35.5;3.71;Vender;https://es.investing.com/equities/nu-holdings

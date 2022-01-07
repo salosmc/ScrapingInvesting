@@ -1,0 +1,23 @@
+Informe de Errores;;;;
+Tipo : Acciones;;;;
+Pais : EEUU;;;;
+Fecha de creación: 6/1/2022;;;;
+;;;;
+Nombre;Ref.;URL;Mensaje
+Tencent Holdings Ltd ;TCTZF ;https://es.investing.com/equities/tencent-holdings-hk?cid=53031 ;Error al cargar la pagina
+ JPMorgan Chase & Co ;JPM ;https://es.investing.com/equities/jp-morgan-chase ;TypeError: Cannot read property 'date' of undefined
+ Samsung Electronics Co Ltd ;SSNLF ;https://es.investing.com/equities/samsung-electronics-co-ltd?cid=104387 ;Error al cargar la pagina
+ Nestle SA ;NSRGF ;https://es.investing.com/equities/nestle-ag?cid=53030 ;Error al cargar la pagina
+ Bank of America Corp Pe ADR ;BAC_pe ;https://es.investing.com/equities/bank-of-america-corp-pe-adr ;TypeError: Cannot read property 'date' of undefined
+ Bank of America Corp Pl Pref ;BAC_pl ;https://es.investing.com/equities/bank-of-america-corp-pl-pref ;TypeError: Cannot read property 'date' of undefined
+ Bank of America Corp Pl ADR ;BML_pl ;https://es.investing.com/equities/bank-of-america-corp-pl-adr ;TypeError: Cannot read property 'date' of undefined
+ Bank of America Corp Pm ;BAC_pm ;https://es.investing.com/equities/bank-of-america-corp-drc ;TypeError: Cannot read property 'date' of undefined
+ Bank of America Corp ;BAC ;https://es.investing.com/equities/bank-of-america ;TypeError: Cannot read property 'date' of undefined
+ Bank of America Corp Pg ADR ;BML_pg ;https://es.investing.com/equities/bank-of-america-corp-pg-adr ;TypeError: Cannot read property 'date' of undefined
+ Bank of America Corp Ph ADR ;BML_ph ;https://es.investing.com/equities/bank-of-america-corp-ph-adr ;TypeError: Cannot read property 'date' of undefined
+ Bank of America Corp Pj ADR ;BML_pj ;https://es.investing.com/equities/bank-of-america-corp-pj-adr ;TypeError: Cannot read property 'date' of undefined
+ Roche Holding AG Participation ;RHHVF ;https://es.investing.com/equities/roche-hldg?cid=53057 ;Error al cargar la pagina
+ Alibaba Group Holding Ltd ;BABAF ;https://es.investing.com/equities/alibaba-group-holding-hk?cid=1177706 ;Error al cargar la pagina
+ ASML Holding NV ;ASMLF ;https://es.investing.com/equities/asml-holding?cid=15470 ;Error al cargar la pagina
+ Westpac Banking Corp ADR ;WBK ;https://es.investing.com/equities/westpac-banking ;TypeError: Cannot read property 'date' of undefined
+ 

@@ -2,31 +2,16 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 const buscar = require('./module_utiles/funciones')
-
-
-
-const informeCompleto = 'informeCompleto.csv';
-const informeResumido = 'informeResumido.csv';
-const informeErrores = 'informeErrores1.csv';
-
-//Creamos el encabezado de los archivos.
-
-const fecha = new Date();
+const v = require('./module_utiles/variables')
 
 //Encabezado del informe completo
-let rotuloInfCompleto = `Informe Completo;;;;;;;;;;;;;;;\nTipo : Acciones;;;;;;;;;;;;;;;\nPais: EEUU;;;;;;;;;;;;;;;\nFecha de creación : ${fecha.getDate()}/${fecha.getMonth()+1}/${fecha.getFullYear()};;;;;;;;;;;;;;;\n;;;;;;;;;;;;;;;\n`
-let encabezadoInfCompleto = `${rotuloInfCompleto}Nombre;Ref.;Ingresos Totales;;;;;;;;Rentabilidad sobre fondos propios TTM;;Precio/Venta TTM;;Recomendación;URL\n;;fecha;monto;fecha;monto;fecha;monto;fecha;monto;Empresa;Industria;Empresa;Industria;;\n`;
-fs.writeFileSync(informeCompleto,encabezadoInfCompleto);
+fs.writeFileSync(v.informe.completoArchivo,v.informe.completoEncabezado);
 
 //Encabezado del informe resumido
-let rotuloInfResumido =`Informe Resumido;;;\nTipo : Acciones;;;\nPais: EEUU;;;\nFecha de creación : ${fecha.getDate()}/${fecha.getMonth()+1}/${fecha.getFullYear()};;;\n;;;\n`
-let encabezadoInfResumido = `${rotuloInfResumido}Nombre;Ref.;Recomendación;URL\n`;
-fs.writeFileSync(informeResumido,encabezadoInfResumido);
+fs.writeFileSync(v.informe.resumidoArchivo,v.informe.resumidoEncabezado);
 
 //Encabezado de informe de errores
-let rotuloInfErrores = `Informe de Errores;;;;\nTipo : Acciones;;;;\nPais : EEUU;;;;\nFecha de creación: ${fecha.getDate()}/${fecha.getMonth()+1}/${fecha.getFullYear()};;;;\n;;;;\n`
-let encabezadoInfErrores = `${rotuloInfErrores}Nombre;Ref.;URL;Mensaje\n`
-fs.writeFileSync(informeErrores,encabezadoInfErrores);
+fs.writeFileSync(v.informe.erroresArchivo,v.informe.erroresEncabezado);
 
 (async()=>{
     const startAll = new Date();
@@ -128,7 +113,7 @@ fs.writeFileSync(informeErrores,encabezadoInfErrores);
                 if(firstGoldenRule && secondGoldenRule && thirdGoldenRule){
                     resEmpresa.recomendacion='Comprar';
                     let contenido = `${resEmpresa.name};${resEmpresa.ref};${resEmpresa.recomendacion};${resEmpresa.href}\n`
-                    fs.appendFileSync(informeResumido,contenido);
+                    fs.appendFileSync(v.informe.resumidoArchivo,contenido);
                 }
 
                 /*Segundo es recomendable vender??? */
@@ -137,14 +122,14 @@ fs.writeFileSync(informeErrores,encabezadoInfErrores);
                     //console.log('Se recomienda vender')
                     resEmpresa.recomendacion='Vender';
                     let contenido = `${resEmpresa.name};${resEmpresa.ref};${resEmpresa.recomendacion};${resEmpresa.href}\n`
-                    fs.appendFileSync(informeResumido,contenido);
+                    fs.appendFileSync(v.informe.resumidoArchivo,contenido);
                 }
 
                 /*Aca terminamos de trabajar con los ratios */
 
                 //console.log(resEmpresa); 
                 let contenido = `${resEmpresa.name};${resEmpresa.ref};${resEmpresa.ingresosTotales[0].date};${resEmpresa.ingresosTotales[0].value};${resEmpresa.ingresosTotales[1].date};${resEmpresa.ingresosTotales[1].value};${resEmpresa.ingresosTotales[2].date};${resEmpresa.ingresosTotales[2].value};${resEmpresa.ingresosTotales[3].date};${resEmpresa.ingresosTotales[3].value};${resEmpresa.rentabilidad[0]};${resEmpresa.rentabilidad[1]};${resEmpresa.precioVenta[0]};${resEmpresa.precioVenta[1]};${resEmpresa.recomendacion};${resEmpresa.href}\n`;
-                fs.appendFileSync(informeCompleto,contenido);
+                fs.appendFileSync(v.informe.completoArchivo, contenido);
 
                 /*TERMINO EL DE SACAR LA INFORMACION */
                       
@@ -157,12 +142,12 @@ fs.writeFileSync(informeErrores,encabezadoInfErrores);
                         contador++;
                     }else{
                         let contenido = `${resEmpresa.name} ;${resEmpresa.ref} ;${resEmpresa.href} ;Error al cargar la pagina\n `;
-                        fs.appendFileSync(informeErrores,contenido);
+                        fs.appendFileSync(v.informe.erroresArchivo,contenido);
                         contador = 0;
                     }
                 }else{
                     let contenido = `${resEmpresa.name} ;${resEmpresa.ref} ;${resEmpresa.href} ;${e}\n `;
-                    fs.appendFileSync(informeErrores,contenido);
+                    fs.appendFileSync(v.informe.erroresArchivo,contenido);
                 }
             }
             const end = new Date();

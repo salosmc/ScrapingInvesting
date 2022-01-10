@@ -106,3 +106,4 @@ module.exports.rentabilidad = buscarRentabilidad;
 module.exports.ingresos = buscarIngresos;
 module.exports.empresas = buscarEmpresas;
 module.exports.pagUtiles = buscarPagUtiles;
+

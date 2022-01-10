@@ -1,7 +1,1200 @@
-Informe de Errores;;;;
-Tipo : Acciones;;;;
-Pais : EEUU;;;;
-Fecha de creación: 10/1/2022;;;;
-;;;;
+Informe de Errores;;;
+Tipo : Acciones;;;
+Pais : EEUU;;;
+Fecha de creación: 10/1/2022;;;
+;;;
 Nombre;Ref.;URL;Mensaje
 Tencent Holdings Ltd ;TCTZF ;https://es.investing.com/equities/tencent-holdings-hk?cid=53031 ;Error al cargar la pagina
+JPMorgan Chase & Co ;JPM ;https://es.investing.com/equities/jp-morgan-chase ;TypeError: Cannot read property 'date' of undefined
+Samsung Electronics Co Ltd ;SSNLF ;https://es.investing.com/equities/samsung-electronics-co-ltd?cid=104387 ;Error al cargar la pagina
+Nestle SA ;NSRGF ;https://es.investing.com/equities/nestle-ag?cid=53030 ;Error al cargar la pagina
+Bank of America Corp Pe ADR ;BAC_pe ;https://es.investing.com/equities/bank-of-america-corp-pe-adr ;TypeError: Cannot read property 'date' of undefined
+Bank of America Corp Pl Pref ;BAC_pl ;https://es.investing.com/equities/bank-of-america-corp-pl-pref ;TypeError: Cannot read property 'date' of undefined
+Bank of America Corp Pl ADR ;BML_pl ;https://es.investing.com/equities/bank-of-america-corp-pl-adr ;TypeError: Cannot read property 'date' of undefined
+Bank of America Corp Pm ;BAC_pm ;https://es.investing.com/equities/bank-of-america-corp-drc ;TypeError: Cannot read property 'date' of undefined
+Bank of America Corp ;BAC ;https://es.investing.com/equities/bank-of-america ;TypeError: Cannot read property 'date' of undefined
+Bank of America Corp Pg ADR ;BML_pg ;https://es.investing.com/equities/bank-of-america-corp-pg-adr ;TypeError: Cannot read property 'date' of undefined
+Bank of America Corp Ph ADR ;BML_ph ;https://es.investing.com/equities/bank-of-america-corp-ph-adr ;TypeError: Cannot read property 'date' of undefined
+Bank of America Corp Pj ADR ;BML_pj ;https://es.investing.com/equities/bank-of-america-corp-pj-adr ;TypeError: Cannot read property 'date' of undefined
+Roche Holding AG Participation ;RHHVF ;https://es.investing.com/equities/roche-hldg?cid=53057 ;Error al cargar la pagina
+Alibaba Group Holding Ltd ;BABAF ;https://es.investing.com/equities/alibaba-group-holding-hk?cid=1177706 ;Error al cargar la pagina
+ASML Holding NV ;ASMLF ;https://es.investing.com/equities/asml-holding?cid=15470 ;Error al cargar la pagina
+Westpac Banking Corp ADR ;WBK ;https://es.investing.com/equities/westpac-banking ;TypeError: Cannot read property 'date' of undefined
+Industrial Commercial Bank of China ;IDCBY ;https://es.investing.com/equities/industrial-commercial-bank-of-china ;TypeError: Cannot read property 'date' of undefined
+Toyota Motor Corp ;TOYOF ;https://es.investing.com/equities/toyota-motor-corporation?cid=53018 ;Error al cargar la pagina
+Prosus NV ;PROSF ;https://es.investing.com/equities/prosus?cid=1153077 ;Error al cargar la pagina
+National Australia Bank Ltd ;NAUBF ;https://es.investing.com/equities/national-australia-bank-limited?cid=52979 ;Error al cargar la pagina
+National Australia Bank Ltd ADR ;NABZY ;https://es.investing.com/equities/national-australia-bank-ltd ;TypeError: Cannot read property 'date' of undefined
+AMP Ltd ;AMLTF ;https://es.investing.com/equities/amp-limited?cid=51066 ;Error al cargar la pagina
+China Construction Bank Corp ;CICHF ;https://es.investing.com/equities/ccb?cid=52497 ;Error al cargar la pagina
+China Construction Bank Corp ;CICHY ;https://es.investing.com/equities/china-construction-bank-corp ;TypeError: Cannot read property 'date' of undefined
+Australia and New Zealand Banking Group Ltd ;ANEWF ;https://es.investing.com/equities/australia---nz-banking-grp-ltd?cid=52972 ;Error al cargar la pagina
+Australia and New Zealand Banking Group Ltd ADR ;ANZBY ;https://es.investing.com/equities/au---nz-banking-group-ltd ;TypeError: Cannot read property 'date' of undefined
+China Merchants Bank Co Ltd ;CIHKY ;https://es.investing.com/equities/china-merchants-bank-co-ltd ;TypeError: Cannot read property 'date' of undefined
+China Merchants Bank Co Ltd ;CIHHF ;https://es.investing.com/equities/china-merchants-bank?cid=1177702 ;Error al cargar la pagina
+National Art Exchange Inc ;NAEX ;https://es.investing.com/equities/tianhe-union-holdings-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of undefined (reading 'innerText')
+    at __puppeteer_evaluation_script__:16:44;;;
+Wells Fargo & Co Pref L ;WFC_pl ;https://es.investing.com/equities/wells-fargo---co-pl-pref ;TypeError: Cannot read property 'date' of undefined
+Wells Fargo & Company ;WFC ;https://es.investing.com/equities/wells-fargo ;TypeError: Cannot read property 'date' of undefined
+Wells Fargo & Co Pq ADR ;WFC_pq ;https://es.investing.com/equities/wells-fargo---co-pq-adr ;TypeError: Cannot read property 'date' of undefined
+Wells Fargo & Co Pref R ;WFC_pr ;https://es.investing.com/equities/wells-fargo---co-pr-adr ;TypeError: Cannot read property 'date' of undefined
+Industrial and Commercial Bank of China Ltd ;IDCBF ;https://es.investing.com/equities/icbc?cid=52484 ;Error al cargar la pagina
+Hermes International SCA ;HESAF ;https://es.investing.com/equities/hermes-international?cid=941932 ;Error al cargar la pagina
+Novartis AG ;NVSEF ;https://es.investing.com/equities/novartis?cid=53040 ;Error al cargar la pagina
+Meituan Dianping ;MPNGF ;https://es.investing.com/equities/meituan-dianping?cid=1152798 ;Error al cargar la pagina
+AstraZeneca PLC ;AZNCF ;https://es.investing.com/equities/astrazeneca?cid=53026 ;Error al cargar la pagina
+Royal Dutch Shell PLC Class A ;RYDAF ;https://es.investing.com/equities/royal-dutch-shell-a-shr?cid=52995 ;Error al cargar la pagina
+SAP SE ;SAPGF ;https://es.investing.com/equities/sap-ag?cid=53037 ;Error al cargar la pagina
+Agricultural Bank of China PK ;ACGBY ;https://es.investing.com/equities/agricultural-bank-of-china-pk ;TypeError: Cannot read property 'date' of undefined
+Agricultural Bank of China Ltd ;ACGBF ;https://es.investing.com/equities/agricultural-bank-of-china?cid=38111 ;Error al cargar la pagina
+Volkswagen AG ;VLKAF ;https://es.investing.com/equities/volkswagen-ag?cid=1173847 ;Error al cargar la pagina
+Keyence Corp ;KYCCF ;https://es.investing.com/equities/keyence?cid=53060 ;Error al cargar la pagina
+Sony Corp ;SNEJF ;https://es.investing.com/equities/sony-corp.?cid=52928 ;Error al cargar la pagina
+BHP Billiton Ltd ;BHPLF ;https://es.investing.com/equities/bhp-billiton-limited?cid=52990 ;Error al cargar la pagina
+Commerzbank AG PK ;CRZBY ;https://es.investing.com/equities/commerzbank-ag-pk ;TypeError: Cannot read property 'date' of undefined
+Royal Bank of Canada ;RY ;https://es.investing.com/equities/royal-bank-of-canada-rbc ;TypeError: Cannot read property 'date' of undefined
+Christian Dior SE ;CHDRF ;https://es.investing.com/equities/christian-dior?cid=53054 ;Error al cargar la pagina
+Toronto Dominion Bank ;TD ;https://es.investing.com/equities/toronto-dominion-bank?cid=20605 ;TypeError: Cannot read property 'date' of undefined
+Total SA ;TTFNF ;https://es.investing.com/equities/total?cid=51154 ;Error al cargar la pagina
+Ping An Insurance Group Co of China Ltd ;PIAIF ;https://es.investing.com/equities/ping-an?cid=1177701 ;Error al cargar la pagina
+BYD Co Ltd ;BYDDF ;https://es.investing.com/equities/byd-co.?cid=52805 ;Error al cargar la pagina
+Commonwealth Bank of Australia PK ;CMWAY ;https://es.investing.com/equities/commonwealth-bank-of-australia-pk ;TypeError: Cannot read property 'date' of undefined
+AIA Group Ltd ;AAIGF ;https://es.investing.com/equities/aia-group?cid=38071 ;Error al cargar la pagina
+Citigroup Inc ;C ;https://es.investing.com/equities/citigroup ;TypeError: Cannot read property 'date' of undefined
+Citigroup Inc Pk ADR ;C_pk ;https://es.investing.com/equities/citigroup-inc-pk-adr ;TypeError: Cannot read property 'date' of undefined
+Citigroup Inc Pj ADR ;C_pj ;https://es.investing.com/equities/citigroup-inc-pj-adr ;TypeError: Cannot read property 'date' of undefined
+HSBC Holdings PLC ADR ;HSBC ;https://es.investing.com/equities/hsbc-holdings-plc ;TypeError: Cannot read property 'date' of undefined
+HSBC Holdings PLC ;HBCYF ;https://es.investing.com/equities/hsbc-holdings?cid=52885 ;Error al cargar la pagina
+HDFC Bank Limited ADR ;HDB ;https://es.investing.com/equities/hdfc-bank ;TypeError: Cannot read property 'date' of undefined
+GlaxoSmithKline PLC ;GLAXF ;https://es.investing.com/equities/glaxosmithkline?cid=51158 ;Error al cargar la pagina
+Gazprom ADR ;OGZPY ;https://es.investing.com/equities/gazprom?cid=102876 ;Error al cargar la pagina
+Bank of China Ltd ;BACHF ;https://es.investing.com/equities/bank-of-china-ss?cid=52401 ;Error al cargar la pagina
+Bank of China Ltd ADR ;BACHY ;https://es.investing.com/equities/bank-of-china-ltd ;TypeError: Cannot read property 'date' of undefined
+Nippon Telegraph and Telephone Corp ;NPPXF ;https://es.investing.com/equities/nippon-telegraph---telephone-corp?cid=53016 ;Error al cargar la pagina
+Rivian Automotive Inc ;RIVN ;https://es.investing.com/equities/rivian-automotive ;TypeError: Cannot read property 'date' of undefined
+Recruit Holdings Co Ltd ;RCRRF ;https://es.investing.com/equities/recruit-holdings?cid=961118 ;Error al cargar la pagina
+Airbus Group SE ;EADSF ;https://es.investing.com/equities/eads?cid=53029 ;Error al cargar la pagina
+Deutsche Telekom AG ;DTEGF ;https://es.investing.com/equities/dt-telekom?cid=51155 ;Error al cargar la pagina
+PNC Financial Services Group Inc ;PNC ;https://es.investing.com/equities/pnc-fin-serv ;TypeError: Cannot read property 'date' of undefined
+PNC Financial Services Group Inc Pp ADR ;PNC_pp ;https://es.investing.com/equities/pnc-financial-services-group-pp-adr ;TypeError: Cannot read property 'date' of undefined
+Daimler AG ;DDAIF ;https://es.investing.com/equities/daimler?cid=51152 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Daimler AG ADR ;DMLRY ;https://es.investing.com/equities/daimler-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Sberbank of Russia ;SBRCY ;https://es.investing.com/equities/sberbank-rossii-oao?cid=942163 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+U.S. Bancorp Pref A ;USB_pa ;https://es.investing.com/equities/u.s.-bancorp-pa-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+U.S. Bancorp ;USB ;https://es.investing.com/equities/us-bancorp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+U.S. Bancorp Pref B ;USB_ph ;https://es.investing.com/equities/u.s.-bancorp-ph-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+U.S. Bancorp Pref F ;USB_pm ;https://es.investing.com/equities/u.s.-bancorp-pm-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Compagnie Financiere Richemont ;CFRUY ;https://es.investing.com/equities/compagnie-financiere-richemont ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Equinor ASA ADR ;EQNR ;https://es.investing.com/equities/statoil-asa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Equinor ASA ;STOHF ;https://es.investing.com/equities/statoil?cid=51095 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Chubb Ltd ;CB ;https://es.investing.com/equities/chubb-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Tokyo Electron Ltd ;TOELF ;https://es.investing.com/equities/tokyo-electron-ltd.?cid=53017 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Tokyo Electron Ltd PK ;TOELY ;https://es.investing.com/equities/tokyo-electron-ltd-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+British American Tobacco PLC ADR ;BTI ;https://es.investing.com/equities/british-american-tobacco-plc-bats ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Bank of Nova Scotia ;BNS ;https://es.investing.com/equities/scotiabank?cid=20675 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+PetroChina Co Ltd Class H ;PCCYF ;https://es.investing.com/equities/petrochina?cid=51159 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+SoftBank Group Corp ;SFTBY ;https://es.investing.com/equities/softbank-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Softbank Corp ;SFTBF ;https://es.investing.com/equities/softbank-corp.?cid=53036 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+CME Group Inc ;CME ;https://es.investing.com/equities/cme-group-inc. ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+CSX Corporation ;CSX ;https://es.investing.com/equities/csx-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Duke Energy Corporation ;DUK ;https://es.investing.com/equities/duke-energy ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+JPMorgan Chase & Co Pref Series EE ;JPM_pc ;https://es.investing.com/equities/jpmorgan-chase-pref-ee ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+China Petroleum & Chemical Corp ADR ;SNP ;https://es.investing.com/equities/sinopec-corp-ss ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+China Petroleum & Chemical Corp ;SNPMF ;https://es.investing.com/equities/sinopec-corp?cid=1177698 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+BP PLC ADR ;BP ;https://es.investing.com/equities/bp-plc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+BNP Paribas SA ;BNPQF ;https://es.investing.com/equities/bnp-paribas?cid=53038 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+BNP Paribas SA ADR ;BNPQY ;https://es.investing.com/equities/bnp-paribas-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Truist Financial Corp ;TFC ;https://es.investing.com/equities/bb-t-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+HCA Holdings Inc ;HCA ;https://es.investing.com/equities/hca-holdings-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Investor AB ;IVSBF ;https://es.investing.com/equities/investor?cid=52989 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Dassault Systemes SA ;DASTF ;https://es.investing.com/equities/dassault-system?cid=53049 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Dassault Systemes SA ;DASTY ;https://es.investing.com/equities/dassault-systemes-sa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Illinois Tool Works Inc ;ITW ;https://es.investing.com/equities/illinois-tool-wk-r ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Intercontinental Exchange Inc ;ICE ;https://es.investing.com/equities/intercontintlex ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Block Inc ;SQ ;https://es.investing.com/equities/square-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+ENEL Societa per Azioni ;ENLAY ;https://es.investing.com/equities/enel-societa-per-azioni ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Enbridge Inc ;ENB ;https://es.investing.com/equities/enbridge-inc. ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Great Wall Motor Company Ltd ;GWLLY ;https://es.investing.com/equities/great-wall-motor-company-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Great Wall Motor Co Ltd ;GWLLF ;https://es.investing.com/equities/greatwall-moto?cid=1177705 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Deutsche Post AG ;DPSGY ;https://es.investing.com/equities/deutsche-post-ag ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+ABB Ltd ;ABLZF ;https://es.investing.com/equities/abb-ltd?cid=52957 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+ABB Ltd ;ABB ;https://es.investing.com/equities/abb-ltd-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Equinix Inc ;EQIX ;https://es.investing.com/equities/equinix,-inc. ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+NK Rosneft PAO ADR ;OJSCY ;https://es.investing.com/equities/rosneft?cid=1054337 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Hong Kong Exchange & Clearing ;HKXCY ;https://es.investing.com/equities/hong-kong-exchange---clearing ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Moodys Corporation ;MCO ;https://es.investing.com/equities/moodys-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Mitsubishi UFJ Financial Group Inc ADR ;MUFG ;https://es.investing.com/equities/mits-ufj-financial-grp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Shin-Etsu Chemical Co Ltd ADR ;SHECY ;https://es.investing.com/equities/shin-etsu-chemical-co-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Southern Company ;SO ;https://es.investing.com/equities/southern-co ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Norfolk Southern Corporation ;NSC ;https://es.investing.com/equities/norfolk-southern ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Marvell Technology Group Ltd ;MRVL ;https://es.investing.com/equities/marvell-technology-group-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Petroleo Brasileiro ADR Reptg 2 Pref ;PBRa ;https://es.investing.com/equities/petroleo-brasileiro-a ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Nidec Corporation ;NJDCY ;https://es.investing.com/equities/nidec-corporation-exch ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Axa SA ADR ;AXAHY ;https://es.investing.com/equities/axa-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+AXA SA ;AXAHF ;https://es.investing.com/equities/axa?cid=51153 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Prudential Public Limited Company ;PUK ;https://es.investing.com/equities/prudential-public-ltd-comp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Bank Of Montreal ;BMO ;https://es.investing.com/equities/bank-of-montreal-financial-group?cid=20914 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Fiserv Inc ;FISV ;https://es.investing.com/equities/fiserv-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Canadian Pacific Railway Ltd ;CP ;https://es.investing.com/equities/canadian-pacific ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Atlas Copco AB Series B ;ATTLF ;https://es.investing.com/equities/atlas-copco-b?cid=25913 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Atlas Copco AB Class A ;ATLKF ;https://es.investing.com/equities/atlas-copco-a?cid=52970 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Atlas Copco ADR ;ATLCY ;https://es.investing.com/equities/atlas-copco ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Atlas Copco AB ;ATLKY ;https://es.investing.com/equities/atlas-copco-ab ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+BioNTech SE ;BNTX ;https://es.investing.com/equities/biontech-se ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Iberdrola SA ;IBDRY ;https://es.investing.com/equities/iberdrola-sa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Workday Inc ;WDAY ;https://es.investing.com/equities/workday-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Daikin Industries Ltd ADR ;DKILY ;https://es.investing.com/equities/daikin-industries-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Postal Savings Bank of China Co Ltd ADR ;PSTVY ;https://es.investing.com/equities/postal-savings-bank-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+KDDI Corp PK ;KDDIY ;https://es.investing.com/equities/kddi-corp-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+KDDI Corp ;KDDIF ;https://es.investing.com/equities/kddi-corp.?cid=53020 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Air Products and Chemicals Inc ;APD ;https://es.investing.com/equities/air-prods---chem ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Icici Bank Limited ADR ;IBN ;https://es.investing.com/equities/icici-bank ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+NatWest Group PLC ;RBSPF ;https://es.investing.com/equities/royal-bank-of-scotland?cid=52814 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Natwest Group PLC ;NWG ;https://es.investing.com/equities/natwest-group-plc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Fidelity National Information Services Inc ;FIS ;https://es.investing.com/equities/fidelity-natl-in ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Lucid Group Inc ;LCID ;https://es.investing.com/equities/churchill-capital-iv ;TypeError: Cannot read property 'date' of undefined
+Ecolab Inc ;ECL ;https://es.investing.com/equities/ecolab-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Aon PLC ;AON ;https://es.investing.com/equities/aon-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Wal Mart de Mexico SAB de CV ADR ;WMMVY ;https://es.investing.com/equities/wal-mart-de-mexico ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Wal Mart de Mexico SAB de CV ;WMMVF ;https://es.investing.com/equities/wal-mart-v?cid=52704 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Bank Central Asia Tbk PT ADR ;PBCRY ;https://es.investing.com/equities/bank-central-asia-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+NetEase Inc ;NTES ;https://es.investing.com/equities/netease.com ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+NetEase Inc ;NETTF ;https://es.investing.com/equities/netease-inc?cid=1177703 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Glencore PLC ;GLCNF ;https://es.investing.com/equities/glencore?cid=52803 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Glencore PLC ADR ;GLNCY ;https://es.investing.com/equities/glencore-plc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Public Storage ;PSA ;https://es.investing.com/equities/public-stg-mld ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Public Storage ;PSA_pe ;https://es.investing.com/equities/public-storage ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Public Storage ADR ;PSA_pf ;https://es.investing.com/equities/public-storage-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Public Storage ADR ;PSA_pg ;https://es.investing.com/equities/public-storage-pg-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Zurich Insurance Group Ltd ;ZURVY ;https://es.investing.com/equities/zurich-insurance-group-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Zurich Insurance Group AG ;ZFSVF ;https://es.investing.com/equities/zurich-fin?cid=53056 ;Error al cargar la pagina
+Capital One Financial Corp Ser G ;COF_pg ;https://es.investing.com/equities/capital-one-financial-corp-ser-g ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Capital One Financial Corporation ;COF ;https://es.investing.com/equities/capital-one ;TypeError: Cannot read property 'date' of undefined
+Capital One Financial Corp Ser H ;COF_ph ;https://es.investing.com/equities/capital-one-financial-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+America Movil SAB de CV ADR ;AMX ;https://es.investing.com/equities/america-movil ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+America Movil SAB de CV ADR Class A ;AMOV ;https://es.investing.com/equities/america-movil-sab-de-cv ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Denso Corp ADR ;DNZOY ;https://es.investing.com/equities/denso-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Heineken NV ;HEINY ;https://es.investing.com/equities/heineken-nv ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Pernod Ricard SA PK ;PDRDY ;https://es.investing.com/equities/pernod-ricard-sa-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+UBS Group AG ;UBS ;https://es.investing.com/equities/ubs-group-n?cid=8132 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+MediaTek Inc ;MDTKF ;https://es.investing.com/equities/mediatek?cid=1178722 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Fast Retailing Co Ltd ADR ;FRCOY ;https://es.investing.com/equities/fast-retailing-co-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Lonza Group AG ;LZAGY ;https://es.investing.com/equities/lonza-group-ag ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+DBS Group Holdings Ltd ADR ;DBSDY ;https://es.investing.com/equities/dbs-group-holdings-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Relx PLC ADR ;RELX ;https://es.investing.com/equities/reed-elsevier-plc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Relx PLC ;RLXXF ;https://es.investing.com/equities/reed-elsevier?cid=22792 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Naspers Ltd ADR ;NPSNY ;https://es.investing.com/equities/naspers-ltd-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Progressive Corp ;PGR ;https://es.investing.com/equities/the-progressive ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+KLA-Tencor Corporation ;KLAC ;https://es.investing.com/equities/kla-tencor-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Simon Property Group Inc Pref ;SPG_pj ;https://es.investing.com/equities/simon-property-group-inc-pref ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+NK Lukoil PAO ADR ;LUKOY ;https://es.investing.com/equities/nk-lukoil-oao?cid=942025 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Stellantis NV ;STLA ;https://es.investing.com/equities/fiat?cid=941888 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Autodesk Inc ;ADSK ;https://es.investing.com/equities/autodesk-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Reckitt Benckiser Group PLC ADR ;RBGLY ;https://es.investing.com/equities/reckitt-benckiser-group-plc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Reckitt Benckiser Group PLC ;RBGPF ;https://es.investing.com/equities/reckitt-benckiser?cid=51067 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Illumina Inc ;ILMN ;https://es.investing.com/equities/illumina,-inc. ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Sika AG ADR ;SXYAY ;https://es.investing.com/equities/sika-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Humana Inc ;HUM ;https://es.investing.com/equities/humana-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Xiaomi Corp ;XIACF ;https://es.investing.com/equities/xiaomi?cid=1095988 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+AP Moeller - Maersk A/S ;AMKAF ;https://es.investing.com/equities/moeller-maersk-a?cid=53067 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+AP Moeller-Maersk AS ;AMKBY ;https://es.investing.com/equities/ap-moeller-maersk-as ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+NXP Semiconductors NV ;NXPI ;https://es.investing.com/equities/nxp-semiconductors ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Boston Scientific Corp ;BSX ;https://es.investing.com/equities/boston-scien-cp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+General Dynamics Corporation ;GD ;https://es.investing.com/equities/general-dynam ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Infineon Technologies AG ADR ;IFNNY ;https://es.investing.com/equities/infineon-technologies-ag ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Thomson Reuters Corp ;TRI ;https://es.investing.com/equities/thomson-reuters-corp?cid=29626 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+KKR & Co Inc ;KKR_pc ;https://es.investing.com/equities/kkr-co-prf ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Oriental Land Co Ltd ADR ;OLCLY ;https://es.investing.com/equities/oriental-land-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Vinci SA ADR ;VCISY ;https://es.investing.com/equities/vinci-sa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Emerson Electric Company ;EMR ;https://es.investing.com/equities/emerson-elec ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Johnson Controls International PLC ;JCI ;https://es.investing.com/equities/johnson-controls ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Hoya Corp ;HOCPY ;https://es.investing.com/equities/hoya-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Nintendo Co ADR ;NTDOY ;https://es.investing.com/equities/nintendo-co ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Zoom Video Communications Inc ;ZM ;https://es.investing.com/equities/zoom-video-communications ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Adidas AG ADR ;ADDYY ;https://es.investing.com/equities/adidas-ag ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Adidas AG ;ADDDF ;https://es.investing.com/equities/adidas-salomon?cid=1028152 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Enbridge 6.375 Fixed to Floating Rate Subordinated Notes Series 2018 B Exp 2078 ;ENBA ;https://es.investing.com/equities/enbridge-fixfltratesubnotessrs18b78 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Bayerische Motoren Werke AG ADR ;BMWYY ;https://es.investing.com/equities/bayerische-motoren-werke-ag-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Hitachi Ltd ADR ;HTHIY ;https://es.investing.com/equities/hitachi-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+CITIC Securities Co Ltd ADR ;CIIHY ;https://es.investing.com/equities/citic-securities-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Banco Santander SA ADR ;SAN ;https://es.investing.com/equities/b-santander-s-a ;TypeError: Cannot read property 'date' of undefined
+Exelon Corporation ;EXC ;https://es.investing.com/equities/exelon-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Orsted A/S ADR ;DNNGY ;https://es.investing.com/equities/dong-energy-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Dong Energy A/S ;DOGEF ;https://es.investing.com/equities/dong-energy-as?cid=1010647 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Fortinet Inc ;FTNT ;https://es.investing.com/equities/fortinet ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Bank of Communications Co Ltd ADR ;BCMXY ;https://es.investing.com/equities/bank-of-communications-co-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+TE Connectivity Ltd ;TEL ;https://es.investing.com/equities/te-connectivity ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Dollar General Corporation ;DG ;https://es.investing.com/equities/dollar-general-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Chugai Pharmaceutical Co Ltd ADR ;CHGCY ;https://es.investing.com/equities/chugai-pharma-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Murata Manufacturing Inc ;MRAAY ;https://es.investing.com/equities/murata-manufacturing-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+ING Group NV ADR ;ING ;https://es.investing.com/equities/ing-group-nv ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+DSV Panalpina A/S ADR ;DSDVY ;https://es.investing.com/equities/dsv-a-s ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Bayer AG PK ;BAYRY ;https://es.investing.com/equities/bayer-ag-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Palo Alto Networks Inc ;PANW ;https://es.investing.com/equities/palo-alto-netwrk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+MetLife Inc ;MET ;https://es.investing.com/equities/metlife-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Metlife Inc Pref ;MET_pa ;https://es.investing.com/equities/metlife-inc-pref ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Hon Hai Precision Industry Co Ltd ADR ;HNHPF ;https://es.investing.com/equities/hon-hai-inds?cid=1097630 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+IDEXX Laboratories Inc ;IDXX ;https://es.investing.com/equities/idexx-laboratorie ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Canadian Imperial Bank of Commerce ;CM ;https://es.investing.com/equities/cibc?cid=20176 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Roper Technologies Inc ;ROP ;https://es.investing.com/equities/roper-industries ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+DexCom Inc ;DXCM ;https://es.investing.com/equities/dexcom ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Iqvia Holdings Inc ;IQV ;https://es.investing.com/equities/quintis-trl-hlgs ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Keurig Dr Pepper Inc ;KDP ;https://es.investing.com/equities/dr-pepper-snapple ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Lululemon Athletica Inc ;LULU ;https://es.investing.com/equities/lululemon-athletica ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+EOG Resources Inc ;EOG ;https://es.investing.com/equities/eog-resources ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+National Grid PLC ADR ;NGG ;https://es.investing.com/equities/national-grid-transco-plc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+London Stock Exchange Ltd ADR ;LNSTY ;https://es.investing.com/equities/london-stock-exchange-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Amphenol Corporation ;APH ;https://es.investing.com/equities/amphenol-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Digital Realty Trust Inc ;DLR ;https://es.investing.com/equities/digital-realty-trust-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Digital Realty Trust Inc Pref ;DLR_pj ;https://es.investing.com/equities/digital-realty ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Challenger Ltd ADR ;CFIGY ;https://es.investing.com/equities/challenger-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Xilinx Inc ;XLNX ;https://es.investing.com/equities/xilinx-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Marriott International Inc ;MAR ;https://es.investing.com/equities/marriott-intl ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Intesa Sanpaolo SpA PK ;ISNPY ;https://es.investing.com/equities/intesa-sanpaolo-spa-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Eni SpA ADR ;E ;https://es.investing.com/equities/eni-spa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+ENI SpA ADR PK ;EIPAF ;https://es.investing.com/equities/eni?cid=52954 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Safran SA ;SAFRF ;https://es.investing.com/equities/safran?cid=53027 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Safran SA ;SAFRY ;https://es.investing.com/equities/safran-sa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Monster Beverage Corp ;MNST ;https://es.investing.com/equities/monster-beverage ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Givaudan SA ADR ;GVDNY ;https://es.investing.com/equities/givaudan-sa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Centene Corp ;CNC ;https://es.investing.com/equities/centene ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Bank of New York Mellon ;BK ;https://es.investing.com/equities/bk-of-ny ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Honda Motor Co Ltd ;HNDAF ;https://es.investing.com/equities/honda-motor-co.,-ltd.?cid=52993 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Honda Motor Co Ltd ADR ;HMC ;https://es.investing.com/equities/honda ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+VMware Inc ;VMW ;https://es.investing.com/equities/vm-ware-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Trane Technologies plc ;TT ;https://es.investing.com/equities/trane-technologies-plc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+WuXi Biologics ;WXIBF ;https://es.investing.com/equities/wuxi-biologics?cid=1177700 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Activision Blizzard Inc ;ATVI ;https://es.investing.com/equities/activision-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Bank Of Queensland Ltd ADR ;BKQNY ;https://es.investing.com/equities/bank-of-queensland-ltd-exch ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Nio Inc Class A ADR ;NIO ;https://es.investing.com/equities/nio-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Kimberly-Clark Corporation ;KMB ;https://es.investing.com/equities/kimberly-clark ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Wesfarmers Ltd ADR ;WFAFY ;https://es.investing.com/equities/wesfarmers-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Mitsubishi Corp ;MSBHF ;https://es.investing.com/equities/mitsubishi-corp.?cid=942049 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Sumitomo Mitsui Financial Group Inc ;SMFNF ;https://es.investing.com/equities/sumitomo-mitsui-financial?cid=53008 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Sumitomo Mitsui Financial Group Inc ;SMFG ;https://es.investing.com/equities/sumitomo-mitsui-financial-group ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Anglo American PLC ADR ;NGLOY ;https://es.investing.com/equities/anglo-american-plc-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Daiichi Sankyo Co Ltd ADR ;DSNKY ;https://es.investing.com/equities/daiichi-sankyo-co-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+China Shenhua Energy Co Ltd ;CSUAY ;https://es.investing.com/equities/china-shenhua-energy-co-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Coupang LLC ;CPNG ;https://es.investing.com/equities/coupang-llc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Ferrari NV ;RACE ;https://es.investing.com/equities/ferrari-nv ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+COSCO SHIPPING Holdings Co Ltd ADR ;CICOY ;https://es.investing.com/equities/cosco-shipping-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Wipro Limited ADR ;WIT ;https://es.investing.com/equities/wipro ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Canadian Natural Resources Limited ;CNQ ;https://es.investing.com/equities/canadian-natural-resources?cid=20255 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Align Technology Inc ;ALGN ;https://es.investing.com/equities/align-technology ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Microchip Technology Inc ;MCHP ;https://es.investing.com/equities/microchip-technology-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Twilio Inc ;TWLO ;https://es.investing.com/equities/twilio-inc-a ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+O’Reilly Automotive Inc ;ORLY ;https://es.investing.com/equities/oreilly-automotive ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+BCE Inc ;BCE ;https://es.investing.com/equities/bce?cid=21242 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Crown Resorts Ltd ADR ;CWLDY ;https://es.investing.com/equities/crown-resorts-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Nu Holdings Ltd ;NU ;https://es.investing.com/equities/nu-holdings ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Enterprise Products Partners LP ;EPD ;https://es.investing.com/equities/enterprise-products-partners-lp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+American International Group Inc ;AIG ;https://es.investing.com/equities/american-intl-group ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Agilent Technologies Inc ;A ;https://es.investing.com/equities/agilent-tech ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Itochu Corp ADR ;ITOCY ;https://es.investing.com/equities/itochu-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Constellation Brands B ;STZb ;https://es.investing.com/equities/constellation-brands-b ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Constellation Brands Inc Class A ;STZ ;https://es.investing.com/equities/constellation-a ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Southern Copper Corporation ;SCCO ;https://es.investing.com/equities/southern-copper-corp. ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Volvo AB ;VOLVF ;https://es.investing.com/equities/volvo-b?cid=52916 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Volvo AB ADR ;VLVLY ;https://es.investing.com/equities/volvo-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Paychex Inc ;PAYX ;https://es.investing.com/equities/paychex-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+TC Energy Corp ;TRP ;https://es.investing.com/equities/transcanada-corp?cid=29627 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Z Holdings Corp ADR ;YAHOY ;https://es.investing.com/equities/yahoo-japan-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+SMC Corp ;SMECF ;https://es.investing.com/equities/smc-corp?cid=53055 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+SMC Corp Japan ;SMCAY ;https://es.investing.com/equities/smc-corp-japan ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Cognizant Technology Solutions Corp Class A ;CTSH ;https://es.investing.com/equities/cognizant-technology-solutio ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Lloyds Banking Group PLC ADR ;LYG ;https://es.investing.com/equities/lloyds-banking-group-plc ;TypeError: Cannot read property 'date' of undefined
+Motorola Solutions Inc ;MSI ;https://es.investing.com/equities/motorola-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Republic Services Inc ;RSG ;https://es.investing.com/equities/republic-services-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Aptiv PLC ;APTV ;https://es.investing.com/equities/delphi-automotive ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Qurate Retail Inc ;QRTEP ;https://es.investing.com/equities/qurate-retail-prf ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Pioneer Natural Resources Co ;PXD ;https://es.investing.com/equities/pioneer-natural-resources ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Spotify Technology SA ;SPOT ;https://es.investing.com/equities/spotify-technology ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Experian PLC ;EXPGF ;https://es.investing.com/equities/experian-ord-usd0?cid=52934 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Experian plc PK ;EXPGY ;https://es.investing.com/equities/experian-plc-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Bank Rakyat ;BKRKY ;https://es.investing.com/equities/bank-rakyat ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Takeda Pharmaceutical Co Ltd ADR ;TAK ;https://es.investing.com/equities/takeda-pharmaceutical-co-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Takeda Pharmaceutical Co Ltd ;TKPHF ;https://es.investing.com/equities/takeda-pharmaceutical-co.,-ltd.?cid=53012 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+T. Rowe Price Group Inc ;TROW ;https://es.investing.com/equities/t-rowe-price-gp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Walgreens Boots Alliance Inc ;WBA ;https://es.investing.com/equities/walgreen-co ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Cloudflare Inc ;NET ;https://es.investing.com/equities/cloudflare-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Partners Group Holding AG ;PGPHF ;https://es.investing.com/equities/partners-group?cid=51187 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Banco Santander Brasil SA ADR ;BSBR ;https://es.investing.com/equities/banco-santander-brazil-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+STMicroelectronics NV ADR ;STM ;https://es.investing.com/equities/stmicroelectronics-nv ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Zijin Mining Group Co Ltd ;ZIJMF ;https://es.investing.com/equities/zijin-mining-group?cid=52269 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Zijin Mining Group Co Ltd ADR ;ZIJMY ;https://es.investing.com/equities/zijin-mining-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Trade Desk Inc ;TTD ;https://es.investing.com/equities/trade-desk-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Fortescue Metals Group Ltd ;FSUMF ;https://es.investing.com/equities/fortescue-metals?cid=52797 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Fortescue Metals Group Ltd ADR ;FSUGY ;https://es.investing.com/equities/fortescue-metals-group-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+General Mills Inc ;GIS ;https://es.investing.com/equities/general-mills ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+AutoZone Inc ;AZO ;https://es.investing.com/equities/autozone-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+China Pacific Insurance Group Co Ltd ADR ;CHPXY ;https://es.investing.com/equities/china-pacific-insurance-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Saipem SpA ADR ;SAPMY ;https://es.investing.com/equities/saipem-spa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Nordea Bank Abp ADR ;NRDBY ;https://es.investing.com/equities/nordea-bank-ab ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Zscaler Inc ;ZS ;https://es.investing.com/equities/zscaler-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+L3Harris Technologies Inc ;LHX ;https://es.investing.com/equities/harris-corporation ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Alcon AG ;ALC ;https://es.investing.com/equities/alcon-ag?cid=1128804 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Sempra Energy ;SRE ;https://es.investing.com/equities/sempra-energy ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Fanuc Corporation ;FANUY ;https://es.investing.com/equities/fanuc-corporation ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Prudential Financial Inc ;PRU ;https://es.investing.com/equities/prudential-fin ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Dupont De Nemours Inc ;DD ;https://es.investing.com/equities/du-pont ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Vodafone Group PLC ADR ;VOD ;https://es.investing.com/equities/vodafone-group-plc-exch ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Vodafone Group PLC ADR ;VODPF ;https://es.investing.com/equities/vodafone?cid=52758 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Nutrien Ltd ;NTR ;https://es.investing.com/equities/nutrien ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Muenchener Rueckver Ges ;MURGY ;https://es.investing.com/equities/muenchener-rueckver-ges ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Barclays PLC ADR ;BCS ;https://es.investing.com/equities/barclays-plc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Barclays PLC ADR ;BCLYF ;https://es.investing.com/equities/barclays?cid=52776 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Hexagon AB ADR ;HXGBY ;https://es.investing.com/equities/hexagon-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Rockwell Automation Inc ;ROK ;https://es.investing.com/equities/rockwell-automat ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Old Dominion Freight Line Inc ;ODFL ;https://es.investing.com/equities/old-dominion-freight-line-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Dow Inc ;DOW ;https://es.investing.com/equities/dow-chemical ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+SBA Communications Corp ;SBAC ;https://es.investing.com/equities/sba-communications-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Parker-Hannifin Corporation ;PH ;https://es.investing.com/equities/parkerhannifin ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+PPG Industries Inc ;PPG ;https://es.investing.com/equities/ppg-industries ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+SVB Financial Group ;SIVB ;https://es.investing.com/equities/svb-financial-gro ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Arista Networks ;ANET ;https://es.investing.com/equities/arista-networks ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+The Travelers Companies Inc ;TRV ;https://es.investing.com/equities/the-travelers-co ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+ANTA Sports Products Ltd ;ANPDF ;https://es.investing.com/equities/anta-sports?cid=1177704 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+ANTA Sports Products Ltd ADR ;ANPDY ;https://es.investing.com/equities/anta-sports-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Danone PK ;DANOY ;https://es.investing.com/equities/danone-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Cap Gemini SA ;CAPMF ;https://es.investing.com/equities/cap-gemini?cid=53033 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Capgemini SE ADR ;CGEMY ;https://es.investing.com/equities/cap-gemini-sa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Seven & i Holdings Co Ltd ;SVNDF ;https://es.investing.com/equities/seven---i-holdings-co.,-ltd.?cid=53001 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Seven & i Holdings Co Ltd ADR ;SVNDY ;https://es.investing.com/equities/seven---i-holdings-co-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Alimentation Couche-Tard Inc ;ANCUF ;https://es.investing.com/equities/alimentation-couche-tard-inc?cid=1169248 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Alimentation Couchen Tard Inc A ;ANCTF ;https://es.investing.com/equities/alimentation-couchen-tard-a ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+CRH PLC ADR ;CRH ;https://es.investing.com/equities/crh-plc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Verbund AG ADR ;OEZVY ;https://es.investing.com/equities/verbund-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Hilton Worldwide Holdings Inc ;HLT ;https://es.investing.com/equities/hilton-worldwide ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Marathon Petroleum Corp ;MPC ;https://es.investing.com/equities/marathon-petroleum-corp. ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Ross Stores Inc ;ROST ;https://es.investing.com/equities/ross-stores-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Realty Income Corp ;O ;https://es.investing.com/equities/realty-income ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Aflac Inc ;AFL ;https://es.investing.com/equities/aflac-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Banco Bilbao Viscaya Argentaria SA ADR ;BBVA ;https://es.investing.com/equities/banco-bilbao-viscaya-argentaria-sa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Annaly Capital Management Pref Ss I ;NLY_pi ;https://es.investing.com/equities/annaly-capital-management-pref-ss-i ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Tokio Marine Holdings Inc ;TKOMF ;https://es.investing.com/equities/tokio-marine-holdings,-inc.?cid=52977 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Tokio Marine Holdings Inc ;TKOMY ;https://es.investing.com/equities/tokio-marine-holdings-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Sysco Corporation ;SYY ;https://es.investing.com/equities/sysco-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Koninklijke DSM NV ADR ;RDSMY ;https://es.investing.com/equities/royal-dsm-nv ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Neste Oyj ;NTOIY ;https://es.investing.com/equities/neste-oyj ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Mitsui & Company Ltd ;MITSY ;https://es.investing.com/equities/mitsui---company-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Overseas Chinese Banking Corp Ltd ADR ;OVCHY ;https://es.investing.com/equities/overseas-chinese-banking-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Hyflux Ltd ;HYFXF ;https://es.investing.com/equities/hyflux?cid=52563 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Hyflux Ltd ADR ;HYFXY ;https://es.investing.com/equities/hyflux-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Ferguson PLC ;FERG ;https://es.investing.com/equities/wolseley?cid=1171303 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Japan Tobacco Inc ;JAPAF ;https://es.investing.com/equities/japan-tobacco-inc.?cid=52984 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Japan Tobacco ADR ;JAPAY ;https://es.investing.com/equities/japan-tobacco-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Hyundai Motor Co ;HYMTF ;https://es.investing.com/equities/hyundai-motor-drc?cid=1169085 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Hyundai Motor Co ;HYMLF ;https://es.investing.com/equities/hyundai-motor?cid=993261 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Hyundai Motor Co ADR ;HYMLY ;https://es.investing.com/equities/hyundai-motor-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+DR Horton Inc ;DHI ;https://es.investing.com/equities/d.r.-horton-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Xcel Energy Inc ;XEL ;https://es.investing.com/equities/xcel-energy ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+International Flavors & Fragrances Inc ;IFF ;https://es.investing.com/equities/intl-flav---frag ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+ResMed Inc ;RMD ;https://es.investing.com/equities/resmed-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Resmed Inc ADR ;RSMDF ;https://es.investing.com/equities/resmed-inc.?cid=1054423 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Archer-Daniels-Midland Company ;ADM ;https://es.investing.com/equities/archer-daniels-mid ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Verisk Analytics Inc ;VRSK ;https://es.investing.com/equities/verisk-analytics-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Electricite de France SA ;ECIFY ;https://es.investing.com/equities/electricite-de-france-sa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Annaly Capital Management Inc Pref Series G ;NLY_pg ;https://es.investing.com/equities/annaly-capital-pref-g ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Global Payments Inc ;GPN ;https://es.investing.com/equities/global-payments ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Palantir Technologies Inc ;PLTR ;https://es.investing.com/equities/palantir-technologies-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Techtronic Industries Ltd ADR ;TTNDY ;https://es.investing.com/equities/techtronic-industries-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Otis Worldwide Corp ;OTIS ;https://es.investing.com/equities/otis-worldwide-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+First Republic Bank ;FRC ;https://es.investing.com/equities/first-republic-bank ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+First Republic Bank ADR Series H ;FRC_ph ;https://es.investing.com/equities/first-republic-bank-adr-h ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Electronic Arts Inc ;EA ;https://es.investing.com/equities/electronic-arts-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Kone Oyj ;KNYJF ;https://es.investing.com/equities/kone-corporation?cid=53006 ;Error al cargar la pagina
+Itau Unibanco Banco Holding SA ;ITUB ;https://es.investing.com/equities/itau-unibanco-holding-sa-adr ;TypeError: Cannot read property 'date' of undefined
+Engie SA ;ENGQF ;https://es.investing.com/equities/gdf-suez?cid=15286 ;Error al cargar la pagina
+Banco Bradesco SA ADR ;BBD ;https://es.investing.com/equities/banco-bradesco-adr ;TypeError: Cannot read property 'date' of undefined
+Hang Seng Bank Ltd ;HSNGY ;https://es.investing.com/equities/hang-seng-bank-ltd ;TypeError: Cannot read property 'date' of undefined
+Telefonaktiebolaget LM Ericsson B ADR ;ERIXF ;https://es.investing.com/equities/ericsson-b?cid=52904 ;Error al cargar la pagina
+KBC Groep NV ADR ;KBCSY ;https://es.investing.com/equities/kbc-group-sa ;TypeError: Cannot read property 'date' of undefined
+China Life Insurance Co Ltd ;CILJF ;https://es.investing.com/equities/china-life?cid=1177697 ;Error al cargar la pagina
+China Citic Bank Corp Ltd ADR ;CHCJY ;https://es.investing.com/equities/china-citic-bank-adr ;TypeError: Cannot read property 'date' of undefined
+Koninklijke Ahold NV ;AHODF ;https://es.investing.com/equities/ahold-kon?cid=51156 ;Error al cargar la pagina
+BASF SE ;BFFAF ;https://es.investing.com/equities/basf-ag?cid=51151 ;Error al cargar la pagina
+Sunny Optical Technology Group Co Ltd ;SNPTF ;https://es.investing.com/equities/sunny-optical-hk?cid=52546 ;Error al cargar la pagina
+Discover Financial Services ;DFS ;https://es.investing.com/equities/discover-financl ;TypeError: Cannot read property 'date' of undefined
+State Street Corp Pd ADR ;STT_pd ;https://es.investing.com/equities/state-street-corp-pd-adr ;TypeError: Cannot read property 'date' of undefined
+State Street Corp ;STT ;https://es.investing.com/equities/state-street ;TypeError: Cannot read property 'date' of undefined
+State Street Corp Pref ;STT_pg ;https://es.investing.com/equities/state-street-corp ;TypeError: Cannot read property 'date' of undefined
+DNB Bank ASA ;DNBBY ;https://es.investing.com/equities/dnb-asa ;TypeError: Cannot read property 'date' of undefined
+BOC Hong Kong Holdings Ltd ADR ;BHKLY ;https://es.investing.com/equities/boc-hong-kong-holdings-ltd ;TypeError: Cannot read property 'date' of undefined
+United Overseas Bank Ltd ADR ;UOVEY ;https://es.investing.com/equities/united-overseas-bank-ltd ;TypeError: Cannot read property 'date' of undefined
+UniCredit SpA ADR ;UNCRY ;https://es.investing.com/equities/unicredit-adr ;TypeError: Cannot read property 'date' of undefined
+Mizuho Financial Group Inc ADR ;MFG ;https://es.investing.com/equities/mizuho ;TypeError: Cannot read property 'date' of undefined
+Globalfoundries Inc ;GFS ;https://es.investing.com/equities/globalfoundries ;TypeError: Cannot read property 'date' of undefined
+MTR Corp Ltd ;MTRJF ;https://es.investing.com/equities/mtr-corporation?cid=942058 ;Error al cargar la pagina
+Skandinaviska Enskilda Banken AB ;SVKEF ;https://es.investing.com/equities/s.e.b?cid=52909 ;Error al cargar la pagina
+ArcelorMittal SA ;AMSYF ;https://es.investing.com/equities/arcelormittal-reg?cid=32233 ;Error al cargar la pagina
+Banco Bradesco S/A ADR ;BBDO ;https://es.investing.com/equities/banco-bradesco-s-a-adr ;TypeError: Cannot read property 'date' of undefined
+Didi Global Inc ADR ;DIDI ;https://es.investing.com/equities/didi-global-adr ;TypeError: Cannot read property 'date' of undefined
+China Resources Land Ltd ;CRBJF ;https://es.investing.com/equities/china-resources-land?cid=1177699 ;Error al cargar la pagina
+Legrand SA ;LGRVF ;https://es.investing.com/equities/legrand?cid=53022 ;Error al cargar la pagina
+FirstRand Ltd ADR ;FANDY ;https://es.investing.com/equities/firstrand-adr ;TypeError: Cannot read property 'date' of undefined
+Wolters Kluwer NV ;WTKWY ;https://es.investing.com/equities/wolters-kluwer-nv ;TypeError: Cannot read property 'date' of undefined
+Fifth Third Bancorp ADR ;FITBI ;https://es.investing.com/equities/fifth-third-bancorp-adr ;TypeError: Cannot read property 'date' of undefined
+Fifth Third Bancorp ;FITB ;https://es.investing.com/equities/fifth-third-bk ;TypeError: Cannot read property 'date' of undefined
+Vestas Wind Systems A/S ;VWSYF ;https://es.investing.com/equities/vestas-wind?cid=52994 ;Error al cargar la pagina
+Citic Ltd ADR ;CTPCY ;https://es.investing.com/equities/citic-ltd ;TypeError: Cannot read property 'date' of undefined
+Tesco PLC ;TSCDF ;https://es.investing.com/equities/tesco?cid=52809 ;Error al cargar la pagina
+Hong Kong and China Gas Co Ltd ;HOKCF ;https://es.investing.com/equities/hk---china-gas?cid=52697 ;Error al cargar la pagina
+Telekomunikasi Indonesia Tbk Perusahaan Perseroan (Persero) PT ;TLKMF ;https://es.investing.com/equities/telkom-indones?cid=52224 ;Error al cargar la pagina
+Geely Automobile Holdings Ltd ;GELYF ;https://es.investing.com/equities/geely-auto?cid=52376 ;Error al cargar la pagina
+Olympus Corp ;OCPNY ;https://es.investing.com/equities/olympus-corp ;TypeError: Cannot read property 'date' of undefined
+Societe Generale ADR ;SCGLY ;https://es.investing.com/equities/societe-generale-pk ;TypeError: Cannot read property 'date' of undefined
+Axis Bank Ltd ADR ;AXBKY ;https://es.investing.com/equities/axis-bank-adr ;TypeError: Cannot read property 'date' of undefined
+Macquarie Group Ltd ADR ;MQBKY ;https://es.investing.com/equities/macquarie-group-ltd ;TypeError: Cannot read property 'date' of undefined
+Fortum Oyj ;FOJCF ;https://es.investing.com/equities/fortum?cid=21304 ;Error al cargar la pagina
+Grab Holdings Ltd ;GRAB ;https://es.investing.com/equities/grab-holdings ;Error: Evaluation failed: TypeError: Cannot read properties of undefined (reading 'innerText')
+    at __puppeteer_evaluation_script__:16:44;;;
+China Minsh ;CMAKY ;https://es.investing.com/equities/china-minsh ;TypeError: Cannot read property 'date' of undefined
+China Resources Beer Holdings Co Ltd ;CRHKF ;https://es.investing.com/equities/china-resources?cid=38051 ;Error al cargar la pagina
+Regions Financial Corp Pc ADR ;RF_pc ;https://es.investing.com/equities/regions-financial-corp-pc-adr ;TypeError: Cannot read property 'date' of undefined
+Regions Financial Corp Pb ADR ;RF_pb ;https://es.investing.com/equities/regions-financial-corp-pb-adr ;TypeError: Cannot read property 'date' of undefined
+Synchrony Financial ;SYF ;https://es.investing.com/equities/synchrony-fin ;TypeError: Cannot read property 'date' of undefined
+Scottish Mortgage Investment Trust PLC ;STMZF ;https://es.investing.com/equities/scottish-mortgage-inv-trust?cid=21641 ;Error al cargar la pagina
+Deutsche Bank AG ;DB ;https://es.investing.com/equities/deutsche-bank?cid=22318 ;TypeError: Cannot read property 'date' of undefined
+National Bank of Canada ;NTIOF ;https://es.investing.com/equities/national-bank-of-canada?cid=53002 ;Error al cargar la pagina
+Siemens AG TMP ;SMAWF ;https://es.investing.com/equities/siemens?cid=53050 ;Error al cargar la pagina
+Franco-Nevada Corporation ;FNV ;https://es.investing.com/equities/franco-nevada-corp?cid=20962 ;Error al cargar la pagina
+Toyota Industries Corp ;TYIDF ;https://es.investing.com/equities/toyota-industries-corp?cid=53010 ;Error al cargar la pagina
+Panasonic Corp ;PCRFF ;https://es.investing.com/equities/panasonic-corp.?cid=51071 ;Error al cargar la pagina
+Vonovia SE ADR ;VONOY ;https://es.investing.com/equities/vonovia-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+CLP Holdings Ltd ;CLPHF ;https://es.investing.com/equities/clp-holdings?cid=52846 ;Error al cargar la pagina
+Carlsberg AS ;CABGY ;https://es.investing.com/equities/carlsberg-as ;TypeError: Cannot read property 'date' of undefined
+ZTE Corp ;ZTCOF ;https://es.investing.com/equities/zte-corp.?cid=38093 ;Error al cargar la pagina
+Ganfeng Lithium Co Ltd ;GNENF ;https://es.investing.com/equities/ganfeng-lithium?cid=1177461 ;Error al cargar la pagina
+Edp Renovaveis SA ;EDRVF ;https://es.investing.com/equities/edp-renovaveis?cid=52827 ;Error al cargar la pagina
+Bank Mandiri Persero Tbk PT ADR ;PPERY ;https://es.investing.com/equities/pt-bank-mandiri-persero-tbk ;TypeError: Cannot read property 'date' of undefined
+Bank Mandiri (Persero) Tbk PT ;PPERF ;https://es.investing.com/equities/bank-mandiri-t?cid=52530 ;Error al cargar la pagina
+Credit Suisse Group AG ;CSGKF ;https://es.investing.com/equities/credit-suisse?cid=51093 ;Error al cargar la pagina
+Credit Suisse Group ;CS ;https://es.investing.com/equities/credit-suisse-group ;TypeError: Cannot read property 'date' of undefined
+Svenska Handelsbanken PK ;SVNLY ;https://es.investing.com/equities/svenska-handelsbanken-pk ;TypeError: Cannot read property 'date' of undefined
+Svenska Handelsbanken AB ;SVNLF ;https://es.investing.com/equities/svenska-handelsbanken?cid=25925 ;Error al cargar la pagina
+Malayan Banking Berhad ;MLYBY ;https://es.investing.com/equities/malayan-banking-berhad ;TypeError: Cannot read property 'date' of undefined
+BAE Systems PLC ;BAESF ;https://es.investing.com/equities/bae-systems?cid=52834 ;Error al cargar la pagina
+Fortis Inc ;FTS ;https://es.investing.com/equities/fortis-inc?cid=992754 ;Error al cargar la pagina
+SEGRO PLC ;SEGXF ;https://es.investing.com/equities/segro?cid=1168221 ;Error al cargar la pagina
+Huntington Bancshares Incorporated ;HBAN ;https://es.investing.com/equities/huntgtn-bkshr ;TypeError: Cannot read property 'date' of undefined
+Huntington Bancshares Inc ;HBANN ;https://es.investing.com/equities/huntington-bancshares-inc ;TypeError: Cannot read property 'date' of undefined
+Swedbank AB ;SWDBY ;https://es.investing.com/equities/swedbank-ab ;TypeError: Cannot read property 'date' of undefined
+Novozymes A/S ;NVZMF ;https://es.investing.com/equities/novozymes-b?cid=53009 ;Error al cargar la pagina
+Country Garden Services Holdings  ;CTRGF ;https://es.investing.com/equities/country-garden-services?cid=1167054 ;Error al cargar la pagina
+Galaxy Entertainment Group Ltd ;GXYEF ;https://es.investing.com/equities/galaxy-ent?cid=52876 ;Error al cargar la pagina
+KeyCorp ;KEY ;https://es.investing.com/equities/keycorp-new ;TypeError: Cannot read property 'date' of undefined
+KeyCorp ADR ;KEY_pi ;https://es.investing.com/equities/keycorp-pk ;TypeError: Cannot read property 'date' of undefined
+Ferrovial  ;FRRVF ;https://es.investing.com/equities/grupo-ferrovial?cid=32215 ;Error al cargar la pagina
+Country Garden Holdings Company Ltd ;CTRYF ;https://es.investing.com/equities/country-garden?cid=52442 ;Error al cargar la pagina
+Telenor ASA ;TELNF ;https://es.investing.com/equities/telenor?cid=52945 ;Error al cargar la pagina
+Regions Financial Corporation ;RF ;https://es.investing.com/equities/regions-fin ;TypeError: Cannot read property 'date' of undefined
+Caixabank SA ADR ;CAIXY ;https://es.investing.com/equities/caixabank-adr ;TypeError: Cannot read property 'date' of undefined
+Exor NV ;EXXRF ;https://es.investing.com/equities/exor?cid=995184 ;Error al cargar la pagina
+Continental AG PK ;CTTAY ;https://es.investing.com/equities/continental-ag-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Kingspan Group PLC ADR ;KGSPY ;https://es.investing.com/equities/kingspan-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+JB Hunt Transport Services Inc ;JBHT ;https://es.investing.com/equities/j.b.-hunt-transpo ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Tyler Technologies Inc ;TYL ;https://es.investing.com/equities/tyler-technologies-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Shionogi & Co Ltd ADR ;SGIOY ;https://es.investing.com/equities/shionogi-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+CGI Inc ;GIB ;https://es.investing.com/equities/cgi-group?cid=21024 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Raymond James Financial Inc ;RJF ;https://es.investing.com/equities/raymond-james-financial-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+SS&C Technologies Holdings Inc ;SSNC ;https://es.investing.com/equities/ss-c-technologies ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Henderson Land Development Co Ltd ;HLDVF ;https://es.investing.com/equities/henderson-land?cid=52804 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Henderson Land Development ;HLDCY ;https://es.investing.com/equities/henderson-land-development ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Halliburton Company ;HAL ;https://es.investing.com/equities/halliburton-co ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Teledyne Technologies Incorporated ;TDY ;https://es.investing.com/equities/teledyne-technologies-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Otsuka Holdings Co Ltd ADR ;OTSKY ;https://es.investing.com/equities/otsuka-holdings-co-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Citizens Financial Group Inc ;CFG ;https://es.investing.com/equities/citizens-financial-group-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+NVR Inc ;NVR ;https://es.investing.com/equities/nvr-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Associated British Foods plc ;ASBFY ;https://es.investing.com/equities/associated-british-foods-plc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Cheniere Energy Partners LP ;CQP ;https://es.investing.com/equities/cheniere-energy-partners ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Jardine Matheson Holdings Ltd PK ;JMHLY ;https://es.investing.com/equities/jardine-matheson-holdings-ltd-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+ASM International NV ADR ;ASMIY ;https://es.investing.com/equities/asm-international-nv ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Carnival Plc ADS ;CUK ;https://es.investing.com/equities/carnival-plc-ads ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Wayfair Inc ;W ;https://es.investing.com/equities/wayfair-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Blue Owl Capital Inc ;OWL ;https://es.investing.com/equities/altimar-acquisition ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+MTN Group Ltd PK ;MTNOY ;https://es.investing.com/equities/mtn-group-ltd-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Ventas Inc ;VTR ;https://es.investing.com/equities/ventas-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+M&T Bank Corp ;MTB ;https://es.investing.com/equities/m-t-bank-corp ;TypeError: Cannot read property 'date' of undefined
+Imperial Brands PLC ;IMBBF ;https://es.investing.com/equities/imperial-tobacco?cid=53003 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Imperial Brands PLC ;IMBBY ;https://es.investing.com/equities/imperial-tobacco-group-plc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Advanced Info Service Public ;AVIFY ;https://es.investing.com/equities/advanced-info-service-public ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Boston Properties Inc ;BXP ;https://es.investing.com/equities/boston-ppty ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Advanced Info Service PCL ADR ;AVIVF ;https://es.investing.com/equities/advanced-info-service-pcl-drc?cid=1053810 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Akzo Nobel NV ADR ;AKZOY ;https://es.investing.com/equities/akzo-nobel-nv ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+NetApp Inc ;NTAP ;https://es.investing.com/equities/network-appliance-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+ZALANDO SE ADR ;ZLNDY ;https://es.investing.com/equities/zalando-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Hologic Inc ;HOLX ;https://es.investing.com/equities/hologic-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Fox Corp Class B ;FOX ;https://es.investing.com/equities/fox-corp-b ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Cooper Companies Inc ;COO ;https://es.investing.com/equities/cooper-companies-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Zhongsheng Group Holdings Ltd ADR ;ZSHGY ;https://es.investing.com/equities/zhongsheng-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+UDR Inc ;UDR ;https://es.investing.com/equities/udr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Surgutneftegaz OAO ;SGTPY ;https://es.investing.com/equities/surgutneftegaz-oao ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Surgutneftegaz ADR ;SGTZY ;https://es.investing.com/equities/surgutneftegaz ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Principal Financial Group Inc ;PFG ;https://es.investing.com/equities/principal-fin ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Genuine Parts Co ;GPC ;https://es.investing.com/equities/genuine-parts-co ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Domino’s Pizza Inc ;DPZ ;https://es.investing.com/equities/dominos-pizza-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Nissan Motor Co Ltd ADR ;NSANY ;https://es.investing.com/equities/nissan-motor-co-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Nissan Motor Co Ltd ;NSANF ;https://es.investing.com/equities/nissan-motor-co.,-ltd.?cid=52870 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Niagara Mohawk Power Corp Pc Pref ;NMK_pc ;https://es.investing.com/equities/niagara-mohawk-power-corp-pc-pref ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Hewlett Packard Enterprise Co ;HPE ;https://es.investing.com/equities/hewlett-packard-enterprise-co ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Suzuki Motor Corp ADR ;SZKMY ;https://es.investing.com/equities/suzuki-motor-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Bilibili Inc ;BILI ;https://es.investing.com/equities/bilibili-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Niagara Mohawk Power Corp Pb Pref ;NMK_pb ;https://es.investing.com/equities/niagara-mohawk-power-corp-pb-pref ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Mitsui Fudosan Co Ltd ADR ;MTSFY ;https://es.investing.com/equities/mitsui-fudosan-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+MGM Resorts International ;MGM ;https://es.investing.com/equities/mgm-mirage ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Daiwa House Industry Co Ltd ADR ;DWAHY ;https://es.investing.com/equities/daiwa-house-industry-co-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Darden Restaurants Inc ;DRI ;https://es.investing.com/equities/dardem-rest ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Diamondback Energy Inc ;FANG ;https://es.investing.com/equities/diamondback-energy-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Snam SpA ADR ;SNMRY ;https://es.investing.com/equities/snam-spa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Wilmar International Ltd ;WLMIY ;https://es.investing.com/equities/wilmar-international-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Healthpeak Properties Inc ;PEAK ;https://es.investing.com/equities/hcp-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Brown & Brown Inc ;BRO ;https://es.investing.com/equities/brown---brown-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Akamai Technologies Inc ;AKAM ;https://es.investing.com/equities/akamai-technologies-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Air China Ltd ADR ;AIRYY ;https://es.investing.com/equities/air-china-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Swiss Life Holding AG ADR ;SZLMY ;https://es.investing.com/equities/swiss-life-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+CMS Energy Corporation ;CMS ;https://es.investing.com/equities/cms-energy-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Cincinnati Financial Corporation ;CINF ;https://es.investing.com/equities/cincinnati-fin ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+China Longyuan Power Group Corp Ltd ADR ;CLPXY ;https://es.investing.com/equities/china-longyuan-power-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Croda International PLC ADR ;COIHY ;https://es.investing.com/equities/croda-international ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Avangrid Inc ;AGR ;https://es.investing.com/equities/avangrid-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Nice Ltd ADR ;NICE ;https://es.investing.com/equities/nice-systems-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Mitsubishi Estate Co Ltd ADR ;MITEY ;https://es.investing.com/equities/mitsubishi-estate-co-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+KB Financial Group Inc ;KB ;https://es.investing.com/equities/kb-financial-group-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Federal National Mortgage Association Pref S ;FNMAS ;https://es.investing.com/equities/fannie-mae-pfd-s ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Heico Corporation ;HEI ;https://es.investing.com/equities/heico-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Carl Zeiss Meditec AG ADR ;CZMWY ;https://es.investing.com/equities/carl-zeiss-meditec-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Wheaton Precious Metals Corp ;WPM ;https://es.investing.com/equities/silver-wheaton-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Carlyle Group Inc ;CG ;https://es.investing.com/equities/carlyle-group ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+OMV AG PK ;OMVKY ;https://es.investing.com/equities/omv-ag-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Ubiquiti Networks Inc ;UI ;https://es.investing.com/equities/ubiquiti-networks ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+3i Group PLC ADR ;TGOPY ;https://es.investing.com/equities/3i-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Sumitomo Corp ADR ;SSUMY ;https://es.investing.com/equities/sumitomo-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Amcor PLC ;AMCR ;https://es.investing.com/equities/amcor-plc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Signature Bank ;SBNY ;https://es.investing.com/equities/signature-bank ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+IDEX Corporation ;IEX ;https://es.investing.com/equities/idex ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+International Paper ;IP ;https://es.investing.com/equities/intl-paper-co ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Camden Property Trust ;CPT ;https://es.investing.com/equities/camden-property-tr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Entegris Inc ;ENTG ;https://es.investing.com/equities/entegris-inc. ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+PICC Property and Casualty ;PPCCY ;https://es.investing.com/equities/picc-property-and-casualty ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Qualtrics International Inc ;XM ;https://es.investing.com/equities/qualtrics-international-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Burlington Stores Inc ;BURL ;https://es.investing.com/equities/burlington-stor ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Erste Group Bank AG PK ;EBKDY ;https://es.investing.com/equities/erste-group-bank-ag-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Erste Group Bank AG ;EBKOF ;https://es.investing.com/equities/erste-bank?cid=53005 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Molina Healthcare Inc ;MOH ;https://es.investing.com/equities/molina-healthcare-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Insulet Corporation ;PODD ;https://es.investing.com/equities/insulet-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Jacobs Engineering Group Inc ;J ;https://es.investing.com/equities/jacobs-engineer ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Antofagasta PLC ;ANFGF ;https://es.investing.com/equities/antofagasta?cid=1167910 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Fresenius Medical Care Corporation ;FMS ;https://es.investing.com/equities/fresenius-medical-care-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Advantest Corp ADR ;ATEYY ;https://es.investing.com/equities/advantest-exch?cid=1053110 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Celanese Corporation ;CE ;https://es.investing.com/equities/celanese ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+FactSet Research Systems Inc ;FDS ;https://es.investing.com/equities/factset-research-systems-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Puma SE ;PMMAF ;https://es.investing.com/equities/puma-se-cfd?cid=6309 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Ryanair Holdings PLC ADR ;RYAAY ;https://es.investing.com/equities/ryanair-hldgs ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Ryanair Holdings PLC ;RYAOF ;https://es.investing.com/equities/ryanair-holdings?cid=22381 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Toshiba Corp PK ;TOSYY ;https://es.investing.com/equities/toshiba-corp-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Standard Chartered PLC ;SCBFF ;https://es.investing.com/equities/standard-chartered?cid=52944 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Western Digital Corporation ;WDC ;https://es.investing.com/equities/western-digital ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+CenterPoint Energy Inc ;CNP ;https://es.investing.com/equities/centerpoint ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Eisai Co Ltd ADR ;ESALY ;https://es.investing.com/equities/eisai-co-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Fleetcor Technologies Inc ;FLT ;https://es.investing.com/equities/fleetcor-tech ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Royal Caribbean Cruises Ltd ;RCL ;https://es.investing.com/equities/royal-caribbean ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Air Liquide SA ADR ;AIQUY ;https://es.investing.com/equities/lair-liquide-sa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Chow Tai Fook Jewellery Group Ltd ;CJEWF ;https://es.investing.com/equities/chow-tai-fook?cid=51188 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Avery Dennison Corp ;AVY ;https://es.investing.com/equities/avery-dennison ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Chow Tai Fook Jewellery Group ;CJEWY ;https://es.investing.com/equities/chow-tai-fook-jewellery-group ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+James Hardie Industries PLC ADR ;JHX ;https://es.investing.com/equities/james-hardie-industries-se ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Thales SA ADR ;THLLY ;https://es.investing.com/equities/thales-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Bunge Ltd Pref ;BGEPF ;https://es.investing.com/equities/bunge-ltd-pfd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Nuance Communications Inc ;NUAN ;https://es.investing.com/equities/nuance-communications ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+China Southern Airlines Co Ltd ADR ;ZNH ;https://es.investing.com/equities/china-southern-airlines-co-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+VICI Properties Inc ;VICI ;https://es.investing.com/equities/vici-properties ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Deutsche Wohnen SE ADR ;DTCWY ;https://es.investing.com/equities/deutsche-wohnen-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Splunk Inc ;SPLK ;https://es.investing.com/equities/splunk-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+China Galaxy Securities Co Ltd ADR ;CGXYY ;https://es.investing.com/equities/china-galaxy-securities-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+MS&AD Insurance Group Holdings PK ;MSADY ;https://es.investing.com/equities/ms-ad-insurance-group-holdings-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Afterpay Ltd ;AFTPF ;https://es.investing.com/equities/afterpay-holdings-ltd?cid=1164692 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Sands China Ltd ADR ;SCHYY ;https://es.investing.com/equities/sands-china-ltd-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Franklin Resources Inc ;BEN ;https://es.investing.com/equities/franklin-res ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+DISH Network Corporation ;DISH ;https://es.investing.com/equities/dish-network ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Ramsay Health Care Ltd ADR ;RMYHY ;https://es.investing.com/equities/ramsay-health-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Uniper SE ;UNPRF ;https://es.investing.com/equities/uniper-se?cid=1009384 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Arch Capital Group Ltd ;ACGL ;https://es.investing.com/equities/arch-capital-group ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Arch Capital Group Ltd ADR ;ACGLO ;https://es.investing.com/equities/arch-capital-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+CNP Assurances SA ADR ;CNPAY ;https://es.investing.com/equities/cnp-assurances-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Markel Corporation ;MKL ;https://es.investing.com/equities/markel-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Masco Corporation ;MAS ;https://es.investing.com/equities/masco-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+WPP PLC ADR ;WPP ;https://es.investing.com/equities/wpp-plc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Westinghouse Air Brake Technologies Corp ;WAB ;https://es.investing.com/equities/westinghouse-air-brake-tech ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Coles Group Ltd ;CLEGF ;https://es.investing.com/equities/coles-group-ltd?cid=1116265 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Repsol SA ;REPYY ;https://es.investing.com/equities/repsol-sa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Ocado Group PLC ;OCDGF ;https://es.investing.com/equities/ocado-group?cid=1168208 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Ringcentral Inc ;RNG ;https://es.investing.com/equities/ringcentral-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Ppd Inc ;PPD ;https://es.investing.com/equities/ppd-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Toast Inc ;TOST ;https://es.investing.com/equities/toast ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Ajinomoto Co Inc ADR ;AJINY ;https://es.investing.com/equities/ajinomoto-co-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Prada Spa PK ;PRDSY ;https://es.investing.com/equities/prada-spa-pk ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+LKQ Corporation ;LKQ ;https://es.investing.com/equities/lkq ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Marubeni Corp ADR ;MARUY ;https://es.investing.com/equities/marubeni-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+ConAgra Foods Inc ;CAG ;https://es.investing.com/equities/conagra-foods ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Textron Inc ;TXT ;https://es.investing.com/equities/textron-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Aluminum Corp of China Ltd ADR ;ACH ;https://es.investing.com/equities/aluminum-corp-of-china ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Ally Financial Inc ;ALLY ;https://es.investing.com/equities/ally-financ ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Olaplex Holdings Inc ;OLPX ;https://es.investing.com/equities/olaplex-holdings ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+China Resources Power Holding ADR ;CRPJY ;https://es.investing.com/equities/china-res-power-exch ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Shinhan Financial Group Co Ltd ;SHG ;https://es.investing.com/equities/shinhan-financial-group-co-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Astra International Tbk PT ;PTAIY ;https://es.investing.com/equities/pt-astra-international ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Coterra Energy Inc ;CTRA ;https://es.investing.com/equities/cabot-oil---gas ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Heico Corp A ;HEIa ;https://es.investing.com/equities/heico-corp-a ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Pembina Pipeline Corp ;PBA ;https://es.investing.com/equities/pembina-pipeline-corp?cid=29622 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+CLARIVATE PLC ;CLVT ;https://es.investing.com/equities/calgon-carbon-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Brookfield Renewable Partners LP ;BEP ;https://es.investing.com/equities/brookfield-renewable-energy-partner ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Rollins Inc ;ROL ;https://es.investing.com/equities/rollins-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Equity Lifestyle Properties Inc ;ELS ;https://es.investing.com/equities/equity-lifestyle-properties-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Dynatrace Holdings LLC ;DT ;https://es.investing.com/equities/dynatrace-holdings-llc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Eastman Chemical Company ;EMN ;https://es.investing.com/equities/eastman-chem ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Publicis Groupe SA ;PUBGY ;https://es.investing.com/equities/publicis-groupe-sa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Groep Brussel Lambert NV ADR ;GBLBY ;https://es.investing.com/equities/brussel-lambert-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Groupe Bruxelles Lambert SA ;GBLBF ;https://es.investing.com/equities/gbl?cid=53044 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Federal Home Loan Mortgage Corp CO Pref ;FMCCO ;https://es.investing.com/equities/federal-home-loan-mortgage-co-pref ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Liberty Media Corp SiriusXM B ;LSXMB ;https://es.investing.com/equities/liberty-media-corp-siriusxm-b ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+American Homes 4 Rent ;AMH ;https://es.investing.com/equities/amern-hms-4 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Sociedad Quimica y Minera de Chile SA ADR B ;SQM ;https://es.investing.com/equities/soc-quimica-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+CP All PCL ADR ;CPPCY ;https://es.investing.com/equities/cp-all-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Liberty Media Corp SiriusXM A ;LSXMA ;https://es.investing.com/equities/liberty-media-corp-siriusxm-a ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Incyte Corporation ;INCY ;https://es.investing.com/equities/incyte-corp ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Liberty Media Corp SiriusXM C ;LSXMK ;https://es.investing.com/equities/liberty-media-corp-siriusxm-c ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Quanta Services Inc ;PWR ;https://es.investing.com/equities/quanta-services ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Confluent Inc ;CFLT ;https://es.investing.com/equities/confluent ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Atlantia SpA ADR ;ATASY ;https://es.investing.com/equities/atlantia-spa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Terna Rete Elettrica Nazionale ;TEZNY ;https://es.investing.com/equities/terna-rete-elettrica-nazionale ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Siemens Gamesa Renewable Energy SA ADR ;GCTAY ;https://es.investing.com/equities/siemens-gamesa-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Banco Do Brasil SA ;BDORY ;https://es.investing.com/equities/banco-do-brasil-sa ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Viatris Inc ;VTRS ;https://es.investing.com/equities/mylan-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Telia Company AB ADR ;TLSNY ;https://es.investing.com/equities/teliasonera-ab ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Alfa Laval AB ADR ;ALFVY ;https://es.investing.com/equities/alfa-laval-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Omnicom Group Inc ;OMC ;https://es.investing.com/equities/omnicom-gp-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Evergy Inc ;EVRG ;https://es.investing.com/equities/westar-energy ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+ASE Industrial Holding Co Ltd ADR ;ASX ;https://es.investing.com/equities/advanced-semiconductor-engineering ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Robinhood Markets Inc ;HOOD ;https://es.investing.com/equities/robinhood-markets ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Ginkgo Bioworks Holdings ;DNA ;https://es.investing.com/equities/soaring-eagle-acquisition ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Continental Resources Inc ;CLR ;https://es.investing.com/equities/continental-resources-inc ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Santos Ltd ;STOSF ;https://es.investing.com/equities/santos-limited?cid=52898 ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Santos Ltd ADR ;SSLZY ;https://es.investing.com/equities/santos-ltd ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+MarketAxess Holdings Inc ;MKTX ;https://es.investing.com/equities/marketaxess-holdi ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+argenx NV ADR ;ARGX ;https://es.investing.com/equities/argenx ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Kikkoman Corp ADR ;KIKOY ;https://es.investing.com/equities/kikkoman-adr ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;
+Discovery Inc Class A ;DISCA ;https://es.investing.com/equities/discovery-holding-co ;Error: Evaluation failed: TypeError: Cannot read properties of null (reading 'href')
+    at __puppeteer_evaluation_script__:5:52;;;

@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 const v = require('./module_utiles/variables');
-const buscar = require('./module_utiles/funciones');
+const buscar = require('./module_utiles/funciones-buscar');
 const analizar = require('./module_utiles/funciones-analisis');
 
 const empresas = JSON.parse(fs.readFileSync('./empresas.json',"UTF-8"));
@@ -17,7 +17,7 @@ fs.writeFileSync(v.informe.resumidoArchivo, v.informe.resumidoEncabezado);
 fs.writeFileSync(v.informe.erroresArchivo, v.informe.erroresEncabezado);
 
 (async()=>{
-    
+
     const startAll = new Date();
     let sumaTime = 0;
 
@@ -88,8 +88,6 @@ fs.writeFileSync(v.informe.erroresArchivo, v.informe.erroresEncabezado);
                 let contenido = `${resEmpresa.name};${resEmpresa.ref};${resEmpresa.recomendacion};${resEmpresa.href}\n`
                 fs.appendFileSync(v.informe.resumidoArchivo,contenido);
             }
-
-            /*Aca terminamos de trabajar con los ratios */
 
             //console.log(resEmpresa); 
             let contenido = `${resEmpresa.name};${resEmpresa.ref};${resEmpresa.ingresosTotales[0].date};${resEmpresa.ingresosTotales[0].value};${resEmpresa.ingresosTotales[1].date};${resEmpresa.ingresosTotales[1].value};${resEmpresa.ingresosTotales[2].date};${resEmpresa.ingresosTotales[2].value};${resEmpresa.ingresosTotales[3].date};${resEmpresa.ingresosTotales[3].value};${resEmpresa.rentabilidad[0]};${resEmpresa.rentabilidad[1]};${resEmpresa.precioVenta[0]};${resEmpresa.precioVenta[1]};${resEmpresa.recomendacion};${resEmpresa.href}\n`;

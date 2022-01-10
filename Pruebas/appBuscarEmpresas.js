@@ -30,7 +30,7 @@ async function buscarEmpresas(page){
 
     //let cantSubPag = await page.evaluate(()=>document.querySelectorAll('a.pagination').length);
     /*por experiencia navegando sé que es tiene 200 paginas de 50 empresas cada una */
-    const cantSubPag = 10;
+    const cantSubPag = 200;
     let array = []
 
     for (let i=1; i<= cantSubPag; i++){

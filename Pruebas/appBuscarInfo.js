@@ -1,34 +1,62 @@
 const puppeteer = require('puppeteer');
-/*
-function selectData(elements, first, ultim){
-    let array = [];
-    let flag = false;
-    for (let e of elements){
-        if(e.innerText == first){
-            flag = true;
-        }
-        if(e.innerText == ultim){
-            flag = false;
-        }
-        if(flag){
-            array.push(isNaN(parseFloat(e.innerText))? e.innerText : parseFloat(e.innerText.replace(',','.')));
-        }
-    }
-    return array;
-}
-*/
-(async()=>{
-    const browser3 = await puppeteer.launch(({ headless : true }));
-    const page3 = await browser3.newPage();
-    //Indicamos que pagina queremos abrir.
-    await page3.goto('https://es.investing.com/equities/apple-computer-inc-ratios');
-    //Esperamos que se cargue la pagina
-    await page3.waitForSelector('tr.child.startGroup');
-    //Captura
-    await page3.screenshot({path: 'PaginaAccionesRatios.jpg'});
 
-    let rentabilidad = await page3.evaluate(()=>{
-        let elements = document.querySelectorAll('tr.child td');
+/*ALGUNAS FUNCIONES UTILES*/
+
+async function buscarPagUtiles(page){
+    if(!page){
+        return null;
+    }
+    let pagUtiles = await page.evaluate(()=>{
+        //buscamos la pagina de Cuenta de resultados.
+        let cuentaResultados = document.querySelector('a[data-test="Cuenta-de-resultados"]');
+        let ratios = document.querySelector('a[data-test="Ratios"]');
+        return {cuentaResultados: cuentaResultados.href, ratios: ratios.href};
+    });
+    if(!pagUtiles){
+        return null;
+    }
+    return pagUtiles;
+}
+
+async function buscarIngresos(page){
+
+    let ingresos = await page.evaluate(()=>{
+
+        let elements = document.querySelectorAll('tr#parentTr.openTr.pointer td');
+        let dates = document.querySelectorAll('#header_row.alignBottom th');
+        let array = [];
+        let flag = false;
+        let j = 1;
+        //ya esta funcionando, solo le indico el primer elemento.
+        for(let i=0; i < elements.length; i++){
+        
+            //incio 
+            if(elements[i].innerText == 'Ingresos totales'){
+                flag = true;
+            }
+            //fin
+            if(isNaN(parseFloat(elements[i].innerText)) && array.length!=0){
+                flag = false;
+            }
+
+            if(!isNaN(parseFloat(elements[i].innerText)) && flag){
+                array.push({date: dates[j].innerText.replace(/[\n \/]/,'- '),
+                            value:parseFloat(elements[i].innerText.replace(/,/,'.'))});
+                j++;
+            }
+        }
+        return array;
+    });
+
+    return ingresos;
+}
+
+async function buscarRentabilidad(page){
+    if(!page){
+        return null;
+    }
+    let rentabilidad = await page.evaluate(()=>{
+        let elements = document.querySelectorAll('tr.child.startGroup td');
         let array = [];
         let flag = false;
         for (let e of elements){
@@ -38,22 +66,20 @@ function selectData(elements, first, ultim){
             if(isNaN(parseFloat(e.innerText)) && array.length!=0){
                 flag = false;
             }
-            if(flag){
-                array.push(isNaN(parseFloat(e.innerText))? e.innerText : parseFloat(e.innerText.replace(',','.')));
+            if(!isNaN(parseFloat(e.innerText)) && flag){
+                let data = e.innerText.replace(/./g,'').replace(/,/g,'.');
+                array.push(data);
             }
         }
         return array;
         //return selectData(elements,'Rentabilidad sobre fondos propios TTM','Rentabilidad sobre fondos propios 5YA');
     });
+    return rentabilidad;
+}
 
-    console.log(rentabilidad);
 
-    //la rentabilidad de la industria es mayor a la del mercado?
-    if(rentabilidad[1]>rentabilidad[2]){
-        console.log("cumple la segunda regla de oro (es rentable)");
-    }
-
-    let precioVenta = await page3.evaluate(()=>{
+async function buscarPrecioVenta(page){
+    let precioVenta = await page.evaluate(()=>{
         let elements = document.querySelectorAll('tr.child td');
         let array = [];
         let flag = false;
@@ -65,23 +91,59 @@ function selectData(elements, first, ultim){
             if(isNaN(parseFloat(e.innerText)) && array.length!=0){
                 flag = false;
             }
-            if(flag){
-                array.push(isNaN(parseFloat(e.innerText))? e.innerText : parseFloat(e.innerText.replace(',','.')));
+            if(!isNaN(parseFloat(e.innerText)) && flag){
+                let data = e.innerText.replace(/./,'');
+                data = data.replace(/,/,'.');
+                array.push(parseFloat(data));
             }
         }
         return array;
-
     });
 
-    console.log(precioVenta);
+    return precioVenta;
+}
 
-    if(precioVenta[1] <= precioVenta[2] * 0.5){
-        console.log('Se recomienda comprar');
+(async()=>{
+    //obtenemos el navegador con el que vamos a trabajar
+    const browser = await puppeteer.launch(({ headless : true }));
+
+    //Abrimos las pestañas con la que vamos a trabajar.
+    const page2 = await browser.newPage();
+
+    /*Aca empezamos a trabajar con Cuenta de Resultados(Ingresos) */
+    try{
+        //Abrimos la pagina de la empresa
+        await page2.goto('https://es.investing.com/equities/daimler-adr');
+        await page2.waitForSelector('nav.navbar_navbar__2yeca',{timeout:5000});
+
+        //Aca buscamos las paginas con las que vamos a trabajar Cuenta resultados y Ratios
+        let pagEmpresa = await buscarPagUtiles(page2);
+
+        //Abrimos la pagina CuentaResultados de la empresa.
+        await page2.goto(pagEmpresa.cuentaResultados);
+        await page2.waitForSelector('tr#parentTr.openTr.pointer',{timeout:5000});
+
+        //Aca buscamos los ingresos totales de la empresa.
+        let ingresosTotales = await buscarIngresos(page2);
+        console.log(ingresosTotales);
+
+        /*-----------Aca trabajamos empezamos con los ratios ---------- */
+
+        //Abrimos la pagina Ratios de la empresa.
+        await page2.goto(pagEmpresa.ratios);
+        await page2.waitForSelector('tr.child td',{timeout:5000});
+
+        //Aca buscamos la rentabilidad en la pagina de la empresa.
+        let rentabilidad = await buscarRentabilidad(page2);
+        console.log(rentabilidad);
+
+        //Aca buscamos precio/venta en la pagina de la empresa
+        let precioVenta = await buscarPrecioVenta(page2);
+        console.log(precioVenta);
+
+    }catch(e){
+        console.log(e);
     }
-    if(precioVenta[1] >= precioVenta[2] * 1.5){
-        console.log('Se recomienda vender');
-    }
 
-    await browser3.close();
-
+    await browser.close();
 })();

@@ -55,8 +55,14 @@ async function buscarRentabilidad(page){
     if(!page){
         return null;
     }
+    //aca validamos que los elementos que vamos a analizar se hayan cargado bien
+    //3 es la posicion del nodo donde se encuentra la informacion que me interesa
+    // if(!(await page.waitForFunction(()=> document.querySelectorAll('tr#childTr.noHover')[0]))){
+    //     return null;
+    // }
+
     let rentabilidad = await page.evaluate(()=>{
-        let elements = document.querySelectorAll('tr.child.startGroup td');
+        let elements = document.querySelectorAll('tr#childTr.noHover')[3].querySelectorAll('tr.child.startGroup td');
         let array = [];
         let flag = false;
         for (let e of elements){
@@ -67,8 +73,9 @@ async function buscarRentabilidad(page){
                 flag = false;
             }
             if(!isNaN(parseFloat(e.innerText)) && flag){
-                let data = e.innerText.replace(/./g,'').replace(/,/g,'.');
-                array.push(data);
+                let data = e.innerText.replaceAll('.','').replace(',','.');
+                //let data2 = data.replace(',','.');
+                array.push(parseFloat(data));
             }
         }
         return array;
@@ -79,8 +86,17 @@ async function buscarRentabilidad(page){
 
 
 async function buscarPrecioVenta(page){
+    if(!page){
+        return null;
+    }
+    // validamos que el bloque donde vamos a extraer los datos se haya cargado bien
+    //3 es la posicion del nodo donde se encuentra la informacion que me interesa
+    // if(!(await page.waitForFunction(()=> document.querySelectorAll('tr#childTr.noHover')[3]))){
+    //     return null;
+    // }
+
     let precioVenta = await page.evaluate(()=>{
-        let elements = document.querySelectorAll('tr.child td');
+        let elements = document.querySelectorAll('tr#childTr.noHover')[0].querySelectorAll('tr.child td');
         let array = [];
         let flag = false;
         //ya esta funcionando, solo le indico el primer elemento.
@@ -92,8 +108,7 @@ async function buscarPrecioVenta(page){
                 flag = false;
             }
             if(!isNaN(parseFloat(e.innerText)) && flag){
-                let data = e.innerText.replace(/./,'');
-                data = data.replace(/,/,'.');
+                let data = e.innerText.replaceAll('.','').replace(',','.');
                 array.push(parseFloat(data));
             }
         }
@@ -112,6 +127,7 @@ async function buscarPrecioVenta(page){
 
     /*Aca empezamos a trabajar con Cuenta de Resultados(Ingresos) */
     try{
+        /*
         //Abrimos la pagina de la empresa
         await page2.goto('https://es.investing.com/equities/daimler-adr');
         await page2.waitForSelector('nav.navbar_navbar__2yeca',{timeout:5000});
@@ -126,12 +142,13 @@ async function buscarPrecioVenta(page){
         //Aca buscamos los ingresos totales de la empresa.
         let ingresosTotales = await buscarIngresos(page2);
         console.log(ingresosTotales);
-
+        */
         /*-----------Aca trabajamos empezamos con los ratios ---------- */
 
         //Abrimos la pagina Ratios de la empresa.
-        await page2.goto(pagEmpresa.ratios);
+        await page2.goto('https://es.investing.com/equities/tokyo-electron-ltd.-ratios?cid=53017');
         await page2.waitForSelector('tr.child td',{timeout:5000});
+
 
         //Aca buscamos la rentabilidad en la pagina de la empresa.
         let rentabilidad = await buscarRentabilidad(page2);

@@ -72,6 +72,8 @@ fs.writeFileSync(v.informe.erroresArchivo, v.informe.erroresEncabezado);
             //Aca buscamos precio/venta en la pagina de la empresa
             resEmpresa.precioVenta = await buscar.precioVenta(page2);
 
+            
+
             /*EMPIEZO A ANALIZAR LOS RESUTLADOS */
 
             /*Aca filtramos analisis para comprar */

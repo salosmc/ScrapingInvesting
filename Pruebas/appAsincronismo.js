@@ -35,6 +35,7 @@ async function proceso1(browser, empresa){
         //Indicamos que pagina queremos abrir.
         await page.goto(empresa.src);
         await page.waitForSelector('nav.navbar_navbar__2yeca',{timeout:5000});
+        //Proceso
         await page.screenshot({path: `${empresa.name}.jpg`});
     }
     catch(e){
@@ -60,10 +61,10 @@ const empresas = [{name:'Apple',src:'https://es.investing.com/equities/apple-com
                 {name:'Nestle SA ADR',src:'https://es.investing.com/equities/nestle-sa-pk'}];
 
 (async()=>{
-    
+
     const browser = await puppeteer.launch(({ headless : true }));
 
-    for(let i=0; i<(empresas.length-6); i++){
+    for(let i=0; i<(empresas.length-7); i++){
         //try{
             proceso1(browser, empresas[i]);
     

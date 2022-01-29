@@ -19,6 +19,9 @@ async function buscarEmpresas(page){
 }
 
 async function buscarPagUtiles(page){
+    if(!page){
+        return null;
+    }
     let pagUtiles = await page.evaluate(()=>{
         //buscamos la pagina de Cuenta de resultados.
         let cuentaResultados = document.querySelector('a[data-test="Cuenta-de-resultados"]');
@@ -29,6 +32,9 @@ async function buscarPagUtiles(page){
 }
 
 async function buscarIngresos(page){
+    if(!page){
+        return null;
+    }
 
     let ingresos = await page.evaluate(()=>{
 
@@ -46,7 +52,7 @@ async function buscarIngresos(page){
             }
             if(!isNaN(parseFloat(elements[i].innerText)) && flag){
                 array.push({date: dates[i].innerText.replace(/[\n \/]/,'- '),
-                            value:parseFloat(elements[i].innerText.replace(',','.'))});
+                            value:parseFloat(elements[i].innerText.replaceAll('.','').replace(',','.'))});
             }
         }
         return array;
@@ -56,8 +62,11 @@ async function buscarIngresos(page){
 }
 
 async function buscarRentabilidad(page){
+    if(!page){
+        return null;
+    }
     let rentabilidad = await page.evaluate(()=>{
-        let elements = document.querySelectorAll('tr.child td');
+        let elements = document.querySelectorAll('tr#childTr.noHover')[3].querySelectorAll('tr.child.startGroup td');
         let array = [];
         let flag = false;
         for (let e of elements){
@@ -68,7 +77,8 @@ async function buscarRentabilidad(page){
                 flag = false;
             }
             if(!isNaN(parseFloat(e.innerText)) && flag){
-                array.push(parseFloat(e.innerText.replace(',','.')));
+                let data = e.innerText.replaceAll('.','').replace(',','.');
+                array.push(parseFloat(data));
             }
         }
         return array;
@@ -79,8 +89,13 @@ async function buscarRentabilidad(page){
 
 
 async function buscarPrecioVenta(page){
+    
+    if(!page){
+        return null;
+    }
+
     let precioVenta = await page.evaluate(()=>{
-        let elements = document.querySelectorAll('tr.child td');
+        let elements = document.querySelectorAll('tr#childTr.noHover')[0].querySelectorAll('tr.child td');
         let array = [];
         let flag = false;
         //ya esta funcionando, solo le indico el primer elemento.
@@ -92,7 +107,8 @@ async function buscarPrecioVenta(page){
                 flag = false;
             }
             if(!isNaN(parseFloat(e.innerText)) && flag){
-                array.push(parseFloat(e.innerText.replace(',','.')));
+                let data = e.innerText.replaceAll('.','').replace(',','.');
+                array.push(parseFloat(data));
             }
         }
         return array;

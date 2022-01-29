@@ -57,7 +57,7 @@ async function buscarRentabilidad(page){
     }
     //aca validamos que los elementos que vamos a analizar se hayan cargado bien
     //3 es la posicion del nodo donde se encuentra la informacion que me interesa
-    // if(!(await page.waitForFunction(()=> document.querySelectorAll('tr#childTr.noHover')[0]))){
+    // if(!(await page.waitForFunction(()=> document.querySelectorAll('tr#childTr.noHover')[3]))){
     //     return null;
     // }
 
@@ -91,7 +91,7 @@ async function buscarPrecioVenta(page){
     }
     // validamos que el bloque donde vamos a extraer los datos se haya cargado bien
     //3 es la posicion del nodo donde se encuentra la informacion que me interesa
-    // if(!(await page.waitForFunction(()=> document.querySelectorAll('tr#childTr.noHover')[3]))){
+    // if(!(await page.waitForFunction(()=> document.querySelectorAll('tr#childTr.noHover')[0]))){
     //     return null;
     // }
 

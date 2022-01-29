@@ -1,25 +1,22 @@
 Informe Resumido;;;
 Tipo : Acciones;;;
 Pais: EEUU;;;
-Fecha de creación : 10/1/2022;;;
+Fecha de creación : 28/1/2022;;;
 ;;;
 Nombre;Ref.;Recomendación;URL
-Tesla Inc;TSLA;Vender;https://es.investing.com/equities/tesla-motors
 NVIDIA Corporation;NVDA;Vender;https://es.investing.com/equities/nvidia-corp
 Berkshire Hathaway Inc Class A;BRKa;Comprar;https://es.investing.com/equities/berkshire-hathaway-inc
 Netflix Inc;NFLX;Comprar;https://es.investing.com/equities/netflix,-inc.
 Accenture plc;ACN;Comprar;https://es.investing.com/equities/accenture-ltd
-National Australia Bank Ltd ADR;NABZY;Vender;https://es.investing.com/equities/national-australia-bank-ltd
+Comcast Corp;CMCSA;Comprar;https://es.investing.com/equities/comcast-corp-new
 FuelCell Energy Inc Pref;FCELB;Vender;https://es.investing.com/equities/fuelcell-energy-pref
 China Merchants Bank Co Ltd;CIHKY;Vender;https://es.investing.com/equities/china-merchants-bank-co-ltd
 Hermes International SA;HESAY;Vender;https://es.investing.com/equities/hermes-international-sa
 Nextera Energy Inc;NEE;Vender;https://es.investing.com/equities/nextera-energy-inc
-Linde PLC;LIN;Vender;https://es.investing.com/equities/linde-plc?cid=942017
 Philip Morris International Inc;PM;Vender;https://es.investing.com/equities/philip-morris-intl
 PetroChina Co Ltd ADR;PTR;Comprar;https://es.investing.com/equities/petrochina-co-ads-exch
-Diageo PLC ADR;DEO;Vender;https://es.investing.com/equities/diageo-plc
 TotalEnergies SE ADR;TTE;Comprar;https://es.investing.com/equities/total-s.a.
-Commonwealth Bank of Australia PK;CMWAY;Vender;https://es.investing.com/equities/commonwealth-bank-of-australia-pk
+Raytheon Technologies Corp;RTX;Comprar;https://es.investing.com/equities/united-tech
 AIA Group Ltd ADR;AAGIY;Vender;https://es.investing.com/equities/aia-group-ltd
 Prologis Inc;PLD;Vender;https://es.investing.com/equities/prologis
 Moderna Inc;MRNA;Comprar;https://es.investing.com/equities/moderna
@@ -32,75 +29,133 @@ Airbnb Inc;ABNB;Vender;https://es.investing.com/equities/airbnb-inc
 Rivian Automotive Inc;RIVN;Vender;https://es.investing.com/equities/rivian-automotive
 Lam Research Corp;LRCX;Comprar;https://es.investing.com/equities/lam-research-corp
 Marsh & McLennan Companies Inc;MMC;Vender;https://es.investing.com/equities/marsh---mclennan
-Snap Inc;SNAP;Vender;https://es.investing.com/equities/snap-inc
+CME Group Inc;CME;Vender;https://es.investing.com/equities/cme-group-inc.
+Hong Kong Exchange & Clearing;HKXCY;Vender;https://es.investing.com/equities/hong-kong-exchange---clearing
+Shin-Etsu Chemical Co Ltd ADR;SHECY;Vender;https://es.investing.com/equities/shin-etsu-chemical-co-ltd
 Petroleo Brasileiro Petrobras SA ADR;PBR;Comprar;https://es.investing.com/equities/petroleo-bras
+Petroleo Brasileiro ADR Reptg 2 Pref;PBRa;Comprar;https://es.investing.com/equities/petroleo-brasileiro-a
+Nidec Corporation;NJDCY;Comprar;https://es.investing.com/equities/nidec-corporation-exch
+BioNTech SE;BNTX;Comprar;https://es.investing.com/equities/biontech-se
+Air Products and Chemicals Inc;APD;Vender;https://es.investing.com/equities/air-prods---chem
+Natwest Group PLC;NWG;Vender;https://es.investing.com/equities/natwest-group-plc
 Lucid Group Inc;LCID;Vender;https://es.investing.com/equities/churchill-capital-iv
+Aon PLC;AON;Vender;https://es.investing.com/equities/aon-corp
+Wal Mart de Mexico SAB de CV ADR;WMMVY;Vender;https://es.investing.com/equities/wal-mart-de-mexico
+NetEase Inc;NTES;Comprar;https://es.investing.com/equities/netease.com
 Dominion Energy Inc;D;Vender;https://es.investing.com/equities/dominion-res
-Roblox Corp;RBLX;Vender;https://es.investing.com/equities/roblox-corp
+DBS Group Holdings Ltd ADR;DBSDY;Vender;https://es.investing.com/equities/dbs-group-holdings-ltd
+Naspers Ltd ADR;NPSNY;Vender;https://es.investing.com/equities/naspers-ltd-pk
+KLA-Tencor Corporation;KLAC;Comprar;https://es.investing.com/equities/kla-tencor-corp
+NK Lukoil PAO ADR;LUKOY;Comprar;https://es.investing.com/equities/nk-lukoil-oao?cid=942025
+Oriental Land Co Ltd ADR;OLCLY;Vender;https://es.investing.com/equities/oriental-land-adr
+Emerson Electric Company;EMR;Comprar;https://es.investing.com/equities/emerson-elec
 Vertex Pharmaceuticals Inc;VRTX;Comprar;https://es.investing.com/equities/vertex-pharm
+Chugai Pharmaceutical Co Ltd ADR;CHGCY;Vender;https://es.investing.com/equities/chugai-pharma-adr
+Roper Technologies Inc;ROP;Vender;https://es.investing.com/equities/roper-industries
 Datadog Inc;DDOG;Vender;https://es.investing.com/equities/datadog-inc
-DoorDash Inc;DASH;Vender;https://es.investing.com/equities/doordash-inc
+EOG Resources Inc;EOG;Comprar;https://es.investing.com/equities/eog-resources
+Amphenol Corporation;APH;Comprar;https://es.investing.com/equities/amphenol-corp
+Marriott International Inc;MAR;Comprar;https://es.investing.com/equities/marriott-intl
 MSCI Inc;MSCI;Vender;https://es.investing.com/equities/msci-inc
+Safran SA;SAFRY;Vender;https://es.investing.com/equities/safran-sa
+Monster Beverage Corp;MNST;Vender;https://es.investing.com/equities/monster-beverage
+China Shenhua Energy Co Ltd;CSUAY;Vender;https://es.investing.com/equities/china-shenhua-energy-co-ltd
+Ferrari NV;RACE;Vender;https://es.investing.com/equities/ferrari-nv
+Wipro Limited ADR;WIT;Comprar;https://es.investing.com/equities/wipro
+Align Technology Inc;ALGN;Comprar;https://es.investing.com/equities/align-technology
+Nu Holdings Ltd;NU;Vender;https://es.investing.com/equities/nu-holdings
+Enterprise Products Partners LP;EPD;Comprar;https://es.investing.com/equities/enterprise-products-partners-lp
+SMC Corp;SMECF;Vender;https://es.investing.com/equities/smc-corp?cid=53055
+SMC Corp Japan;SMCAY;Vender;https://es.investing.com/equities/smc-corp-japan
+T. Rowe Price Group Inc;TROW;Comprar;https://es.investing.com/equities/t-rowe-price-gp
+Cloudflare Inc;NET;Vender;https://es.investing.com/equities/cloudflare-inc
+Arista Networks;ANET;Vender;https://es.investing.com/equities/arista-networks
+Realty Income Corp;O;Vender;https://es.investing.com/equities/realty-income
 Fastenal Company;FAST;Vender;https://es.investing.com/equities/fastenal-co
-Xpeng Inc;XPEV;Vender;https://es.investing.com/equities/xpeng-inc
-EPAM Systems Inc;EPAM;Comprar;https://es.investing.com/equities/epam-systems-inc
-Carvana Co;CVNA;Vender;https://es.investing.com/equities/carvana
-Hang Seng Bank Ltd;HSNGY;Vender;https://es.investing.com/equities/hang-seng-bank-ltd
-Brown Forman;BFb;Vender;https://es.investing.com/equities/brown-forman-b
-Arthur J Gallagher & Co;AJG;Vender;https://es.investing.com/equities/arthur-j.-gallagher---co
-Telstra Corporation Ltd ADR;TLSYY;Vender;https://es.investing.com/equities/telstra-corporation-ltd
-Twitter Inc;TWTR;Vender;https://es.investing.com/equities/twitter-inc
-Gazprom Neft PAO ADR;GZPFY;Comprar;https://es.investing.com/equities/gazprom-neft
-Barrick Gold Corp;GOLD;Vender;https://es.investing.com/equities/barrick-gold-corp.
 Brown Forman Corp A;BFa;Vender;https://es.investing.com/equities/brown-forman-corp-a
-PTT PCL ADR;PUTRY;Comprar;https://es.investing.com/equities/ptt-adr
-Straumann Holding AG ADR;SAUHY;Vender;https://es.investing.com/equities/straumann-adr
-Transdigm Group Incorporated;TDG;Comprar;https://es.investing.com/equities/transdigm-group-inc
-Corning Incorporated;GLW;Vender;https://es.investing.com/equities/corning-inc
-Zebra Technologies Corporation;ZBRA;Vender;https://es.investing.com/equities/zebra-tech
-Tyson Foods Inc;TSN;Comprar;https://es.investing.com/equities/tyson-foods
-TELUS Corp;TU;Vender;https://es.investing.com/equities/telus-corp?cid=29623
-CoStar Group Inc;CSGP;Vender;https://es.investing.com/equities/costar-group
-Li Auto Inc;LI;Vender;https://es.investing.com/equities/li-auto-inc
-Cathay Financial Holding Co Ltd ADR;CHYYY;Vender;https://es.investing.com/equities/cathay-financial-adr
-LyondellBasell Industries NV;LYB;Comprar;https://es.investing.com/equities/lyondellbasell-industries
-Hershey Co;HSY;Vender;https://es.investing.com/equities/hershey-co
-Etsy Inc;ETSY;Vender;https://es.investing.com/equities/etsy-inc
-Central Japan Railway Co;CJPRY;Vender;https://es.investing.com/equities/central-japan-railway-co
-Martin Marietta Materials Inc;MLM;Vender;https://es.investing.com/equities/martin-marietta-materials-inc
-Devon Energy Corporation;DVN;Comprar;https://es.investing.com/equities/devon-energy
-Vulcan Materials Company;VMC;Vender;https://es.investing.com/equities/vulcan-matrls
-Liberty Broadband Srs C;LBRDK;Vender;https://es.investing.com/equities/liberty-broadband-srs-c
-Liberty Broadband Srs A;LBRDA;Vender;https://es.investing.com/equities/liberty-broadband-srs-a
-Ecopetrol SA ADR;EC;Comprar;https://es.investing.com/equities/ecopetrol-sa-adr
-China Overseas Land Investment;CAOVY;Comprar;https://es.investing.com/equities/china-overseas-land-investment
-Shimano Inc ADR;SMNNY;Vender;https://es.investing.com/equities/shimano-adr
-Garmin Ltd;GRMN;Vender;https://es.investing.com/equities/garmin-ltd
-Enphase Energy Inc;ENPH;Vender;https://es.investing.com/equities/enphase-energy-inc
-Invitation Homes Inc;INVH;Vender;https://es.investing.com/equities/invitation-homes-inc
-Toyota Industries Corporation;TYIDY;Vender;https://es.investing.com/equities/toyota-industries-corporation
-McCormick & Company Incorporated;MKC;Vender;https://es.investing.com/equities/mccormick---co
-McCormick & Comp Inc;MKCv;Vender;https://es.investing.com/equities/mccormick-comp-inc
-Flutter Entertainment PLC ADR;PDYPY;Comprar;https://es.investing.com/equities/paddy-power-betfair-adr
-Zoominfo Technologies Inc;ZI;Vender;https://es.investing.com/equities/zoominfo-technologies-inc
-Duke Realty Corporation;DRE;Vender;https://es.investing.com/equities/duke-realty-corp
-Bill Com Holdings Inc;BILL;Vender;https://es.investing.com/equities/bill-com-holdings-inc
-Imperial Oil Ltd;IMO;Comprar;https://es.investing.com/equities/imperial-oil-ltd
-Hess Corporation;HES;Vender;https://es.investing.com/equities/hess-corp
-Kyocera Corporation ADR;KYOCY;Vender;https://es.investing.com/equities/kyocera
-Pinterest Inc;PINS;Vender;https://es.investing.com/equities/pinterest-inc
+ArcelorMittal SA ADR;MT;Comprar;https://es.investing.com/equities/arcelormittal-nyse-exch
 ZTO Express (Cayman) Inc;ZTO;Vender;https://es.investing.com/equities/zto-express-cayman-inc
-Chewy Inc;CHWY;Comprar;https://es.investing.com/equities/chewy-inc
 Pool Corporation;POOL;Vender;https://es.investing.com/equities/pool-corp
 Tradeweb Markets Inc;TW;Vender;https://es.investing.com/equities/tradeweb-markets-inc
 Symrise Ag PK;SYIEY;Vender;https://es.investing.com/equities/symrise-ag-pk
 Galaxy Entertainment Group Ltd ADR;GXYYY;Vender;https://es.investing.com/equities/galaxy-entertainment-adr
-Ferrovial SA;FRRVY;Vender;https://es.investing.com/equities/ferrovial-sa-drc
-Trimble Inc;TRMB;Vender;https://es.investing.com/equities/trimble-navigation-ltd
-Quest Diagnostics Incorporated;DGX;Vender;https://es.investing.com/equities/quest-diag
-Telenor ASA ADR;TELNY;Vender;https://es.investing.com/equities/telenor-asa
-Ulta Beauty Inc;ULTA;Vender;https://es.investing.com/equities/ulta-salon-cosmetics---fragrance
 UCB SA ADR;UCBJY;Comprar;https://es.investing.com/equities/ucb-sa
+JB Hunt Transport Services Inc;JBHT;Comprar;https://es.investing.com/equities/j.b.-hunt-transpo
+Shionogi & Co Ltd ADR;SGIOY;Vender;https://es.investing.com/equities/shionogi-adr
+Henderson Land Development;HLDCY;Vender;https://es.investing.com/equities/henderson-land-development
+Carnival Plc ADS;CUK;Vender;https://es.investing.com/equities/carnival-plc-ads
+Advanced Info Service Public;AVIFY;Vender;https://es.investing.com/equities/advanced-info-service-public
+MGM Resorts International;MGM;Comprar;https://es.investing.com/equities/mgm-mirage
+Brown & Brown Inc;BRO;Vender;https://es.investing.com/equities/brown---brown-inc
+China Longyuan Power Group Corp Ltd ADR;CLPXY;Vender;https://es.investing.com/equities/china-longyuan-power-adr
+Wheaton Precious Metals Corp;WPM;Vender;https://es.investing.com/equities/silver-wheaton-corp
+Caesars Entertainment Corporation;CZR;Comprar;https://es.investing.com/equities/caesars-entertainment-corp
+OMV AG PK;OMVKY;Comprar;https://es.investing.com/equities/omv-ag-pk
+Ubiquiti Networks Inc;UI;Vender;https://es.investing.com/equities/ubiquiti-networks
 Bio-Techne Corp;TECH;Vender;https://es.investing.com/equities/techne-corp
+Molina Healthcare Inc;MOH;Comprar;https://es.investing.com/equities/molina-healthcare-inc
+Ryanair Holdings PLC ADR;RYAAY;Vender;https://es.investing.com/equities/ryanair-hldgs
+Royal Caribbean Cruises Ltd;RCL;Vender;https://es.investing.com/equities/royal-caribbean
 Plug Power Inc;PLUG;Vender;https://es.investing.com/equities/plug-power
+Olaplex Holdings Inc;OLPX;Vender;https://es.investing.com/equities/olaplex-holdings
 The AES Corporation;AES;Comprar;https://es.investing.com/equities/aes-corp
+Sociedad Quimica y Minera de Chile SA ADR B;SQM;Vender;https://es.investing.com/equities/soc-quimica-adr
+Confluent Inc;CFLT;Vender;https://es.investing.com/equities/confluent
+Terna Rete Elettrica Nazionale;TEZNY;Vender;https://es.investing.com/equities/terna-rete-elettrica-nazionale
+Continental Resources Inc;CLR;Comprar;https://es.investing.com/equities/continental-resources-inc
+MarketAxess Holdings Inc;MKTX;Vender;https://es.investing.com/equities/marketaxess-holdi
+Kikkoman Corp ADR;KIKOY;Vender;https://es.investing.com/equities/kikkoman-adr
+Nippon Steel Corp ADR;NPSCY;Comprar;https://es.investing.com/equities/nippon-steel---sumitomo-metal
+10X Genomics Inc;TXG;Vender;https://es.investing.com/equities/10x-genomics-inc
+Masimo Corporation;MASI;Comprar;https://es.investing.com/equities/masimo-corp
+Trex Company Inc;TREX;Vender;https://es.investing.com/equities/trex-co.-inc
+Tatneft ADR;OAOFY;Comprar;https://es.investing.com/equities/tatneft
+NortonLifeLock Inc;NLOK;Comprar;https://es.investing.com/equities/symantec-corp
+Iron Mountain Incorporated;IRM;Comprar;https://es.investing.com/equities/iron-mountain-inc
+Repligen Corporation;RGEN;Vender;https://es.investing.com/equities/repligen-corp
+Teladoc Inc;TDOC;Comprar;https://es.investing.com/equities/teladoc-inc
+CH Robinson Worldwide Inc;CHRW;Comprar;https://es.investing.com/equities/c-h-robinson-worldwide-inc
+Power Assets Holdings Ltd;HGKGY;Vender;https://es.investing.com/equities/power-assets-holdings-ltd
+United Airlines Holdings Inc;UAL;Comprar;https://es.investing.com/equities/united-continenta
+SentinelOne Inc;S;Vender;https://es.investing.com/equities/sentinelone
+Inpex Corp ADR;IPXHY;Vender;https://es.investing.com/equities/inpex-corp
+Leidos Holdings Inc;LDOS;Comprar;https://es.investing.com/equities/leidos-holdings
+Steel Dynamics Inc;STLD;Comprar;https://es.investing.com/equities/steel-dynamics
+Jack Henry & Associates Inc;JKHY;Comprar;https://es.investing.com/equities/jack-henry---asso
+Admiral Group PLC ADR;AMIGY;Vender;https://es.investing.com/equities/admiral-group-plc
+Rexford Inl Rty;REXR;Vender;https://es.investing.com/equities/rexford-inl-rty
+Pentair PLC;PNR;Comprar;https://es.investing.com/equities/pentair
+Westlake Chemical Corporation;WLK;Comprar;https://es.investing.com/equities/westlake-chemical
+Red Electrica Corporacion SA ADR;RDEIY;Vender;https://es.investing.com/equities/red-electrica-corporacion-sa
+Upstart Holdings Inc;UPST;Vender;https://es.investing.com/equities/upstart-holdings-inc
+SoFi Technologies Inc.;SOFI;Vender;https://es.investing.com/equities/social-capital-hedosophia-v
+Japan Exchange Group Inc ADR;JPXGY;Vender;https://es.investing.com/equities/japan-exchange-adr
+Hubbell Inc;HUBB;Comprar;https://es.investing.com/equities/hubbell-inc-b
+Regal Beloit Corporation;RRX;Comprar;https://es.investing.com/equities/regal-beloit-corp
+Chandra Asri Petrochemical Tbk PT ADR;PTCAY;Vender;https://es.investing.com/equities/chandra-asri-adr
+Edenred Malakoff ADR;EDNMY;Vender;https://es.investing.com/equities/edenred-malakoff-adr
+Booz Allen Hamilton Holding;BAH;Comprar;https://es.investing.com/equities/booz-allen-hamilton-holding-corp
+East West Bancorp Inc;EWBC;Vender;https://es.investing.com/equities/east-west-bancorp
+Full Truck Alliance Co Ltd ADR;YMM;Vender;https://es.investing.com/equities/full-truck-alliance-co-adr
+Sumitomo Metal Mining Co Ltd ADR;SMMYY;Vender;https://es.investing.com/equities/sumitomo-metal-mining-co-ltd
+Western Alliance Bancorporation;WAL;Vender;https://es.investing.com/equities/western-alliance-bancorp
+Western Alliance Bancorp;WALA;Vender;https://es.investing.com/equities/western-alliance-bancorp-pref
+American Airlines Group;AAL;Comprar;https://es.investing.com/equities/american-airlines-group
+Cleveland-Cliffs Inc;CLF;Comprar;https://es.investing.com/equities/cleveland-cliffs
+HKT Trust ADR;HKTTY;Vender;https://es.investing.com/equities/hkt-adr
+Arkema SA ADR;ARKAY;Comprar;https://es.investing.com/equities/arkema-pk
+Ryan Specialty Group Holdings Inc;RYAN;Vender;https://es.investing.com/equities/ryan-specialty-group-holdings
+Guardant Health Inc;GH;Vender;https://es.investing.com/equities/guardant-health
+Reliance Steel & Aluminum Co;RS;Comprar;https://es.investing.com/equities/reliance-steel---aluminum-co.
+Informa PLC ADR;IFJPY;Vender;https://es.investing.com/equities/informa-plc
+Knight Transportation Inc;KNX;Comprar;https://es.investing.com/equities/knight-transportation-inc
+Mediobanca Banca di Credito Finanziario SpA ADR;MDIBY;Vender;https://es.investing.com/equities/mediobanca-adr
+Umicore SA ADR;UMICY;Comprar;https://es.investing.com/equities/umicore-adr
+Texas Pacific Land Trust;TPL;Vender;https://es.investing.com/equities/texas-pacific-land-trust
+Manhattan Associates Inc;MANH;Comprar;https://es.investing.com/equities/manhattan-associa
+Kingfisher PLC ADR;KGFHY;Comprar;https://es.investing.com/equities/kingfisher-plc
+Jabil Circuit Inc;JBL;Comprar;https://es.investing.com/equities/jabil-circuit
+Monotaro Co Ltd;MONOY;Vender;https://es.investing.com/equities/monotaro-co-ltd
+PTT Global Chemical PCL ADR;PCHUY;Comprar;https://es.investing.com/equities/ptt-global-adr
+Hang Lung Properties Ltd;HLPPY;Vender;https://es.investing.com/equities/hang-lung-properties-ltd
+OncBioMune Pharmaceuticals Inc;OBMP;Vender;https://es.investing.com/equities/quint-media-inc.

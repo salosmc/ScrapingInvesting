@@ -1,8 +1,8 @@
 
 
-const informeCompleto = 'informeCompleto.csv';
-const informeResumido = 'informeResumido.csv';
-const informeErrores = 'informeErrores1.csv';
+const informeCompleto = './outFiles/informeCompleto.csv';
+const informeResumido = './outFiles/informeResumido.csv';
+const informeErrores = './outFiles/informeErrores.csv';
 
 const fecha = new Date();
 
